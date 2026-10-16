@@ -1,0 +1,7 @@
+# Original games and local UZDoom distribution
+/originals/
+/uzdoom/
+
+# Generated resources, working copies and release packages
+/build/
+/dist/
