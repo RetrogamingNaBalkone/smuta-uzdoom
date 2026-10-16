@@ -1,7 +1,7 @@
 ﻿# Единый вход ENV-02. Все результаты остаются в build/ или dist/.
 [CmdletBinding()]
 param(
-    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate')]
+    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels')]
     [string]$Task = 'Test',
     [string]$Source,
     [string]$Output,
@@ -19,6 +19,7 @@ if (-not $Output) {
     if ($Task -eq 'Text') { $Output = Join-Path $repo 'build/decoded/smuta-text' }
     elseif ($Task -eq 'IR') { $Output = Join-Path $repo 'build/ir/smuta' }
     elseif ($Task -eq 'Validate') { $Output = Join-Path $repo 'build/ir/smuta-validation.json' }
+    elseif ($Task -eq 'Levels') { $Output = Join-Path $repo 'build/research/smuta-levels' }
     else { $Output = Join-Path $repo 'build/extracted/smuta' }
 }
 $venv = Join-Path $repo 'build/tools-venv'
@@ -68,6 +69,9 @@ try {
     }
     if ($Task -eq 'IR') {
         Invoke-Python -PythonArguments @('-m', 'smuta_build', 'ir', '--source', $Source, '--output', $Output)
+    }
+    if ($Task -eq 'Levels') {
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'levels', '--source', $Source, '--output', $Output)
     }
     if ($Task -eq 'Validate') {
         if (-not $IR) { $IR = Join-Path $repo 'build/ir/smuta/ir.json' }

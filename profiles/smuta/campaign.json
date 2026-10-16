@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "game": "smuta",
+  "status": "static-research-only",
+  "dat_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+  "exe_sha256": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+  "documentation": "docs/SMUTA_LEVELS.md",
+  "menu": {
+    "resource": {
+      "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:357",
+      "game": "smuta",
+      "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+      "index": 357,
+      "name": "UROVEN_SP",
+      "name_bytes_hex": "55524f56454e5f5350",
+      "offset": 6929702,
+      "length": 9888,
+      "sha256": "92f13e1f10dbe17a2b7455325913e2c65a3a8d189da842b70f5009edf514857b"
+    },
+    "width": 141,
+    "height": 70,
+    "labels_top_to_bottom": [
+      "Сложная игра",
+      "Реальная игра",
+      "Простая игра"
+    ],
+    "variant_by_selection": [
+      1,
+      2,
+      3
+    ],
+    "evidence_kind": "code-and-inspected-resource-no-game-measurement"
+  },
+  "representation": "ten-level-numbers-with-three-independent-variants",
+  "start_number": 1,
+  "last_number": 10,
+  "preserve_variant_on_exit": true,
+  "terminal_next_number": null,
+  "variants": [
+    {
+      "index": 1,
+      "label": "Сложная игра",
+      "route": [
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:10",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 10,
+          "name": "LEVEL1-1",
+          "name_bytes_hex": "4c4556454c312d31",
+          "offset": 245793,
+          "length": 22152,
+          "sha256": "0a38e01fd76267333d6dab9e4e662d0b7d2677ab92c4960a29fdc084dc9b17a4"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:153",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 153,
+          "name": "LEVEL2-1",
+          "name_bytes_hex": "4c4556454c322d31",
+          "offset": 1175403,
+          "length": 22224,
+          "sha256": "5fd33403a7d7de2fd82078aaaef8a84bbed7f3bf1551fc4d03b7fe8d28a163f1"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:156",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 156,
+          "name": "LEVEL3-1",
+          "name_bytes_hex": "4c4556454c332d31",
+          "offset": 1242035,
+          "length": 22478,
+          "sha256": "7198f1c9ca52479188cd4c04506270916250f7406a9fc1cc195fc4ac00742ddc"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:159",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 159,
+          "name": "LEVEL4-1",
+          "name_bytes_hex": "4c4556454c342d31",
+          "offset": 1309455,
+          "length": 22428,
+          "sha256": "e4d040aeaec616230a6672432c59a98272d713341b0d7033f419abd40f2d7ffa"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:162",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 162,
+          "name": "LEVEL5-1",
+          "name_bytes_hex": "4c4556454c352d31",
+          "offset": 1376727,
+          "length": 23460,
+          "sha256": "21288934288623a3db68d8c93b78d5691735f2ee9065164994affb0f7745c6e9"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:165",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 165,
+          "name": "LEVEL6-1",
+          "name_bytes_hex": "4c4556454c362d31",
+          "offset": 1447053,
+          "length": 24080,
+          "sha256": "1a1786cfbf3c26cd1887f83d1d93d1156ba83924dd913978abd0a4fea3c22c19"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:168",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 168,
+          "name": "LEVEL7-1",
+          "name_bytes_hex": "4c4556454c372d31",
+          "offset": 1519257,
+          "length": 24041,
+          "sha256": "08ba2885b3f35cbdfca1bfebff2c8fccba11520aaa5d531df30fc256f8c9c84b"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:171",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 171,
+          "name": "LEVEL8-1",
+          "name_bytes_hex": "4c4556454c382d31",
+          "offset": 1591496,
+          "length": 24578,
+          "sha256": "5b646c10c2afbc2285a261fc11c3e13fc790dd348e4f120a3fe54e764c621d56"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:174",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 174,
+          "name": "LEVEL9-1",
+          "name_bytes_hex": "4c4556454c392d31",
+          "offset": 1665224,
+          "length": 22351,
+          "sha256": "17c93ae52f69200d8d035a6a604ec111f18743605a1df964c8a94a825f6159eb"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:177",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 177,
+          "name": "LEVEL10-1",
+          "name_bytes_hex": "4c4556454c31302d31",
+          "offset": 1732277,
+          "length": 24199,
+          "sha256": "95b167ca05a6d5edc89c9764c537af1f7f30decbb035c2b71447227aee2b0d9b"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Реальная игра",
+      "route": [
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:151",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 151,
+          "name": "LEVEL1-2",
+          "name_bytes_hex": "4c4556454c312d32",
+          "offset": 1131115,
+          "length": 22144,
+          "sha256": "a614de898910e2af4aa1e53f9c2fcd707b8dd0bbd10c7317bcee8eb3eeb944e8"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:154",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 154,
+          "name": "LEVEL2-2",
+          "name_bytes_hex": "4c4556454c322d32",
+          "offset": 1197627,
+          "length": 22204,
+          "sha256": "054cdc9d76dbe3dae93f90ea89e6ba600d90444752a8a24bca6d566e8a02b00e"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:157",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 157,
+          "name": "LEVEL3-2",
+          "name_bytes_hex": "4c4556454c332d32",
+          "offset": 1264513,
+          "length": 22471,
+          "sha256": "7f7e4c440b4deed92454eb772301fb183799dafebb90ad3b0a0444776031cc72"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:160",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 160,
+          "name": "LEVEL4-2",
+          "name_bytes_hex": "4c4556454c342d32",
+          "offset": 1331883,
+          "length": 22422,
+          "sha256": "8e1033038e376b6497d045739fae922964fac03b9091e0f71ee10e85497b8c18"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:163",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 163,
+          "name": "LEVEL5-2",
+          "name_bytes_hex": "4c4556454c352d32",
+          "offset": 1400187,
+          "length": 23433,
+          "sha256": "2d37734bed0197500749402d8cba8563516f3602fd03da5e88301ea4f3ad3fc7"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:166",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 166,
+          "name": "LEVEL6-2",
+          "name_bytes_hex": "4c4556454c362d32",
+          "offset": 1471133,
+          "length": 24062,
+          "sha256": "ce301c6600d35be101508316ae782f5663755ea4467f37e5f9e55583d0c670ce"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:169",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 169,
+          "name": "LEVEL7-2",
+          "name_bytes_hex": "4c4556454c372d32",
+          "offset": 1543298,
+          "length": 24099,
+          "sha256": "d3831dd3038f9c67ba3aa4174a339f29c5fd0edf15214df54572111a6a40d2cb"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:172",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 172,
+          "name": "LEVEL8-2",
+          "name_bytes_hex": "4c4556454c382d32",
+          "offset": 1616074,
+          "length": 24575,
+          "sha256": "437bfe2a495a71829f86089494ed3789d1ba07c3dfdfb60eb5e13aaebc97b1db"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:175",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 175,
+          "name": "LEVEL9-2",
+          "name_bytes_hex": "4c4556454c392d32",
+          "offset": 1687575,
+          "length": 22351,
+          "sha256": "27ec77590030c1397d393748dba8886362b487c8d0b6ef4160b5c749c40d2260"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:178",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 178,
+          "name": "LEVEL10-2",
+          "name_bytes_hex": "4c4556454c31302d32",
+          "offset": 1756476,
+          "length": 24174,
+          "sha256": "436cbabca7c06a7679924858babd21b7e9a86f883115401a7ecb2ced34dfeba0"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Простая игра",
+      "route": [
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:152",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 152,
+          "name": "LEVEL1-3",
+          "name_bytes_hex": "4c4556454c312d33",
+          "offset": 1153259,
+          "length": 22144,
+          "sha256": "e8b5e68a9557f232688ba2621b715f74a97d4245dbe918a99c514052b758863f"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:155",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 155,
+          "name": "LEVEL2-3",
+          "name_bytes_hex": "4c4556454c322d33",
+          "offset": 1219831,
+          "length": 22204,
+          "sha256": "cf124096227834d698ee4c3dd5682a216fc41821577237d48561807a91254ef7"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:158",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 158,
+          "name": "LEVEL3-3",
+          "name_bytes_hex": "4c4556454c332d33",
+          "offset": 1286984,
+          "length": 22471,
+          "sha256": "fcf3182b2ba9242a84c0fd7cef5829b34da393fb4b7e7e0348d05ba5a20ce15a"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:161",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 161,
+          "name": "LEVEL4-3",
+          "name_bytes_hex": "4c4556454c342d33",
+          "offset": 1354305,
+          "length": 22422,
+          "sha256": "7f304396fd61bd2e7e911911dd4405b2d904c7e4bea0b6d2b30c55e00d1003ae"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:164",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 164,
+          "name": "LEVEL5-3",
+          "name_bytes_hex": "4c4556454c352d33",
+          "offset": 1423620,
+          "length": 23433,
+          "sha256": "6508c10fa0665f73abc2f7ac13c9b3106eee3382be616ceae941f19b48b132e9"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:167",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 167,
+          "name": "LEVEL6-3",
+          "name_bytes_hex": "4c4556454c362d33",
+          "offset": 1495195,
+          "length": 24062,
+          "sha256": "e5f5c413ea01b997f2f2551b252b599ff9fb81df2de37db8910cd08a158402bc"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:170",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 170,
+          "name": "LEVEL7-3",
+          "name_bytes_hex": "4c4556454c372d33",
+          "offset": 1567397,
+          "length": 24099,
+          "sha256": "d35fac78a99f9eabfb6c05e41f4228f8679656088afa133e367dcc97341f28f9"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:173",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 173,
+          "name": "LEVEL8-3",
+          "name_bytes_hex": "4c4556454c382d33",
+          "offset": 1640649,
+          "length": 24575,
+          "sha256": "0f93328427d395e58614c12be876366766037fcb2dfe05cf0da72865ad50f72e"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:176",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 176,
+          "name": "LEVEL9-3",
+          "name_bytes_hex": "4c4556454c392d33",
+          "offset": 1709926,
+          "length": 22351,
+          "sha256": "cff5d0e75f15a2e387f1b49d88b5fd92eda029185e200ab3720c7d1c79e56c33"
+        },
+        {
+          "id": "smuta:6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8:179",
+          "game": "smuta",
+          "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+          "index": 179,
+          "name": "LEVEL10-3",
+          "name_bytes_hex": "4c4556454c31302d33",
+          "offset": 1780650,
+          "length": 24180,
+          "sha256": "554fb0e259db5e4ca30b39d45dd94414a9ab09fde32151070f3ffa01f4600e5d"
+        }
+      ]
+    }
+  ],
+  "exe_evidence": [
+    {
+      "meaning": "difficulty-menu-three-items",
+      "va": "004057CA",
+      "offset": 19914,
+      "length": 27,
+      "bytes_hex": "c7430c02000000e82af301006a0368794b4300e836a7000083c408"
+    },
+    {
+      "meaning": "selection-initialized-zero",
+      "va": "0040FFC1",
+      "offset": 62913,
+      "length": 17,
+      "bytes_hex": "33d2891558f944008b4d0c890d14584300"
+    },
+    {
+      "meaning": "selection-wrap",
+      "va": "004100AD",
+      "offset": 63149,
+      "length": 69,
+      "bytes_hex": "8b1558f9440085d27e08ff0d58f94400eb338b0d1458430049890d58f94400eb24f6c3087505f6c320741aff0558f944008b0d14584300a158f9440099f7f9891558f94400"
+    },
+    {
+      "meaning": "confirm-returns-selection-plus-one",
+      "va": "004100F2",
+      "offset": 63218,
+      "length": 18,
+      "bytes_hex": "f6c7087505f6c7027408a158f94400405bc3"
+    },
+    {
+      "meaning": "new-game-number-one-and-selected-variant",
+      "va": "004056B8",
+      "offset": 19640,
+      "length": 27,
+      "bytes_hex": "e897a900008bf085c07e60c7054c3d4400010000008935503d4400"
+    },
+    {
+      "meaning": "format-selected-level",
+      "va": "004056E8",
+      "offset": 19688,
+      "length": 28,
+      "bytes_hex": "668b0d503d44006a006a0066a14c3d44008b5304525150e88cf9ffff"
+    },
+    {
+      "meaning": "format-level-number-and-variant",
+      "va": "00405090",
+      "offset": 18064,
+      "length": 38,
+      "bytes_hex": "558bec0fbf450c500fbf55085268304b430068583d4400e8187f020083c410b8583d44005dc3"
+    },
+    {
+      "meaning": "advance-number-preserve-variant",
+      "va": "00405338",
+      "offset": 18744,
+      "length": 38,
+      "bytes_hex": "8b0d4c3d440083f90a7d50ff054c3d4400a1503d4400508b154c3d440052e86d0e020083c408"
+    },
+    {
+      "meaning": "terminal-branch",
+      "va": "00405393",
+      "offset": 18835,
+      "length": 53,
+      "bytes_hex": "6a1ae8eec50200598945f485c0742666c745dc44006a018b5304528b4df451e8b901000083c40ca12caa490083280266c745dc3800"
+    },
+    {
+      "meaning": "level-name-template",
+      "va": "00434B30",
+      "offset": 209712,
+      "length": 11,
+      "bytes_hex": "4c4556454c25642d256400"
+    },
+    {
+      "meaning": "difficulty-resource-name",
+      "va": "00434B79",
+      "offset": 209785,
+      "length": 10,
+      "bytes_hex": "55524f56454e5f535000"
+    }
+  ],
+  "remaining_blockers": [
+    "SM-U17: состояние мира и инвентаря при переходе, смерти и сохранении",
+    "SM-U16: полная последовательность финальных экранов и игровая сверка"
+  ]
+}

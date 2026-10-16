@@ -10,12 +10,13 @@ from .pack import pack
 from .text import decode_archive
 from .ir import write_model
 from .validation import write_report
+from .levels import write_comparison
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Структурные инструменты Смуты")
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("extract", "check", "pack", "text", "ir", "validate"):
+    for name in ("extract", "check", "pack", "text", "ir", "validate", "levels"):
         command = commands.add_parser(name)
         command.add_argument("--source", type=Path, required=True)
         command.add_argument("--output", type=Path, required=True)
@@ -35,7 +36,8 @@ def main() -> int:
                           ir_path=args.ir, dat_source=args.dat_source)
         else:
             result = {"extract": extract, "check": check,
-                      "text": decode_archive, "ir": write_model}[args.command](args.source, args.output)
+                      "text": decode_archive, "ir": write_model,
+                      "levels": write_comparison}[args.command](args.source, args.output)
         if args.command == "extract":
             result = {"entries": len(result["entries"]), **result["container"]}
         print(json.dumps(result, ensure_ascii=True, indent=2))
