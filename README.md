@@ -48,6 +48,8 @@ CD-треки «Смуты» поставляются отдельным **оп�
 - [Позадачный план реализации порта](docs/IMPLEMENTATION_PLAN.md).
 - [Среда запуска, команды и результаты ENV-01](docs/ENVIRONMENT.md).
 - [Инструменты ENV-02, команды и извлечение DAT-01](docs/BUILD_TOOLS.md).
+- [Парсер текстов TXT-01, грамматика и проверка сеток](docs/SMUTA_TEXT.md).
+- [Промежуточная модель IR-01 и проверка допуска IR-02](docs/SMUTA_IR.md).
 - [Реестр неизвестных и отклонений ENV-03](docs/RESEARCH_REGISTRY.md),
   [сценарии сравнения](docs/COMPARISON_SCENARIOS.md) и
   [шаблон протокола замера](docs/templates/MEASUREMENT_PROTOCOL.md).

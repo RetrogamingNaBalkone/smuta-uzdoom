@@ -1,18 +1,26 @@
 ﻿# Единый вход ENV-02. Все результаты остаются в build/ или dist/.
 [CmdletBinding()]
 param(
-    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build')]
+    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate')]
     [string]$Task = 'Test',
     [string]$Source,
     [string]$Output,
     [string]$Stage,
-    [string]$Archive
+    [string]$Archive,
+    [string]$IR,
+    [ValidateSet('raw', 'research', 'release')]
+    [string]$Mode = 'raw'
 )
 
 $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 if (-not $Source) { $Source = Join-Path $repo 'originals/smuta_modern_20261013/smuta_modern/SMUTA.DAT' }
-if (-not $Output) { $Output = Join-Path $repo 'build/extracted/smuta' }
+if (-not $Output) {
+    if ($Task -eq 'Text') { $Output = Join-Path $repo 'build/decoded/smuta-text' }
+    elseif ($Task -eq 'IR') { $Output = Join-Path $repo 'build/ir/smuta' }
+    elseif ($Task -eq 'Validate') { $Output = Join-Path $repo 'build/ir/smuta-validation.json' }
+    else { $Output = Join-Path $repo 'build/extracted/smuta' }
+}
 $venv = Join-Path $repo 'build/tools-venv'
 $python = Join-Path $venv 'Scripts/python.exe'
 
@@ -55,8 +63,21 @@ try {
     if ($Task -in @('Check', 'Build')) {
         Invoke-Python -PythonArguments @('-m', 'smuta_build', 'check', '--source', $Source, '--output', $Output)
     }
+    if ($Task -eq 'Text') {
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'text', '--source', $Source, '--output', $Output)
+    }
+    if ($Task -eq 'IR') {
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'ir', '--source', $Source, '--output', $Output)
+    }
+    if ($Task -eq 'Validate') {
+        if (-not $IR) { $IR = Join-Path $repo 'build/ir/smuta/ir.json' }
+        if ($Mode -eq 'raw') { $Mode = 'research' }
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'validate', '--source', $Source, '--ir', $IR, '--output', $Output, '--mode', $Mode)
+    }
     if ($Task -eq 'Pack' -or ($Task -eq 'Build' -and $Stage)) {
-        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'pack', '--source', $Stage, '--output', $Archive)
+        $packArguments = @('-m', 'smuta_build', 'pack', '--source', $Stage, '--output', $Archive, '--mode', $Mode)
+        if ($IR) { $packArguments += @('--ir', $IR, '--dat-source', $Source) }
+        Invoke-Python -PythonArguments $packArguments
     }
 } finally {
     $env:PYTHONPATH = $oldPythonPath

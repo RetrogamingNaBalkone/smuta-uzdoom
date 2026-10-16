@@ -190,7 +190,7 @@ class FileTests(unittest.TestCase):
         stage.mkdir()
         (stage / "z").write_bytes(b"last")
         (stage / "a").write_bytes(b"first")
-        first, second = self.root / "a.zip", self.root / "b.pk3"
+        first, second = self.root / "a.zip", self.root / "b.zip"
         pack(stage, first)
         (stage / "a").touch()
         pack(stage, second)
