@@ -1,4 +1,4 @@
-"""Отдельная интеграционная приёмка ENV-02/DAT-01 на локальном эталоне."""
+"""Отдельная интеграционная приёмка ENV-02/DAT-01/DAT-02 на локальном эталоне."""
 
 import csv
 import json
@@ -12,7 +12,9 @@ import zipfile
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 
 from smuta_build.extract import check, digest, extract
-from smuta_build.pack import pack
+from smuta_build.dat import parse
+from smuta_build.names import EXE_SHA256, NameResolver
+from smuta_build.pack import pack, safe_name
 from smuta_build.paths import REPO
 
 
@@ -39,11 +41,13 @@ def main() -> None:
     paths = [source, source_root / "SMUTA.EXE", REPO / "uzdoom/uzdoom.exe"]
     before = {path.name: digest(path.read_bytes()) for path in paths}
     require(before["SMUTA.DAT"] == "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8", "Другой DAT эталона")
-    require(before["SMUTA.EXE"] == "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb", "Другой EXE эталона")
+    require(before["SMUTA.EXE"] == EXE_SHA256, "Другой EXE эталона")
     root = REPO / "build" / ("env-02 verification " + uuid.uuid4().hex)
     root.mkdir(parents=True)
     report = {"python": sys.version, "sources_before": before, "success": False}
     try:
+        report["uzdoom_version"] = powershell(["-Command",
+            f"(Get-Item -LiteralPath '{paths[2]}').VersionInfo.FileVersion"]).strip()
         first, second = root / "first", root / "second"
         manifest = extract(source, first)
         extract(source, second)
@@ -51,6 +55,23 @@ def main() -> None:
         report["roundtrip"] = check(source, first)
         require(manifest["entries"][182]["name"] == manifest["entries"][183]["name"] == "ЗАСТАВКА_СПР", "Потерян дубликат")
         require(manifest["entries"][199]["name"] == "ТРУБА/2", "Потеряно исходное имя")
+        archive = parse(source.read_bytes())
+        resolver = NameResolver(archive)
+        require(resolver.resolve("ЗАСТАВКА_СПР").index == 182, "Неверный выбор дубликата")
+        require(resolver.resolve("ТРУБА/2").index == 199, "Имя стало путём")
+        outputs = [entry["output_name"] for entry in manifest["entries"]]
+        require(len(set(name.casefold() for name in outputs)) == 460, "Коллизия ASCII-имён")
+        for entry in manifest["entries"]:
+            key = bytes.fromhex(entry["name_bytes_hex"])
+            first_index = next(item.index for item in archive.entries
+                               if item.raw[:16].split(b"\0", 1)[0] == key)
+            require(resolver.resolve(key).index == entry["resolved_index"] == first_index,
+                    "Неверное разрешение имени")
+            safe_name(entry["output_name"] + ".bin")
+        report["dat_02"] = {"all_entries_resolved": 460, "duplicate_selected": 182,
+                            "duplicate_preserved": 183, "slash_name_index": 199,
+                            "ascii_names_unique_ignoring_case": True,
+                            "policy": manifest["name_resolution"]}
         require((first / "unreferenced/000000.bin").read_bytes() == bytes.fromhex("5a82e642a6018500"), "Не совпал хвост")
         with (REPO / "docs/research/smuta-dat-catalog.csv").open(encoding="utf-8-sig", newline="") as stream:
             catalog = list(csv.DictReader(stream))

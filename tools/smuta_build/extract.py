@@ -1,4 +1,4 @@
-"""Извлечение без потерь и стабильный манифест происхождения v1."""
+"""Извлечение без потерь и стабильный манифест происхождения v2."""
 
 import hashlib
 import json
@@ -6,6 +6,7 @@ from pathlib import Path
 
 from . import __version__
 from .dat import Archive, parse
+from .names import NameResolver, name_bytes, output_name, resolution_policy
 from .paths import files_under, no_links, output_path
 
 
@@ -17,12 +18,16 @@ def layout(archive: Archive) -> tuple[dict, dict[str, bytes]]:
     data = archive.data
     files = {"directory.bin": data[:archive.directory_end]}
     entries = []
+    resolver = NameResolver(archive)
     for entry in archive.entries:
         path = f"entries/{entry.index:06d}.bin"
         payload = data[entry.offset:entry.offset + entry.length]
         files[path] = payload
         entries.append({
             "index": entry.index, "name": entry.name,
+            "name_bytes_hex": name_bytes(entry).hex(),
+            "resolved_index": resolver.resolve(name_bytes(entry)).index,
+            "output_name": output_name(entry),
             "name_field_hex": entry.raw[:16].hex(),
             "directory_record_hex": entry.raw.hex(),
             "directory_offset": 2 + entry.index * 30,
@@ -40,7 +45,8 @@ def layout(archive: Archive) -> tuple[dict, dict[str, bytes]]:
         gaps.append({"offset": offset, "length": length,
                      "sha256": digest(payload), "path": path})
     manifest = {
-        "schema_version": 1, "game": "smuta", "tool_version": __version__,
+        "schema_version": 2, "game": "smuta", "tool_version": __version__,
+        "name_resolution": resolution_policy(),
         "container": {"sha256": digest(data), "length": len(data)},
         "directory": {"path": "directory.bin", "length": archive.directory_end,
                       "sha256": digest(files["directory.bin"])},
