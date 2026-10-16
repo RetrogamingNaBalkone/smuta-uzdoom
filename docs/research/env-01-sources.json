@@ -1,0 +1,392 @@
+﻿[
+    {
+        "Source":  "smuta",
+        "Path":  "CD.DAT",
+        "Length":  146,
+        "SHA256":  "e12ab2cbeda84e228058363922b13c023ed7af5b9bbec26e9d92b31beb28e6ad"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track02.ogg",
+        "Length":  4982194,
+        "SHA256":  "422395943610cfc8d6038640fe38243dd89086e5239ce158e9977f781808d244"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track03.ogg",
+        "Length":  4275783,
+        "SHA256":  "9f8ffc3f67a9181f414a8f130a569e962e15a5baf20af71ad9d2b44def80647e"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track04.ogg",
+        "Length":  5317743,
+        "SHA256":  "da7b522fa8334834cabaaddf4da5b4a1b2050706ff8d9d12219725ff056c13e5"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track05.ogg",
+        "Length":  7872284,
+        "SHA256":  "e5d38b10ceb4b8deb8019dd606641544c4363be98eec5e02759f4ef892d0b008"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track06.ogg",
+        "Length":  4122125,
+        "SHA256":  "45159cd62fe023e56974fba73337e08ccb987b687127f6c93db10c92cf2d861e"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track07.ogg",
+        "Length":  2779892,
+        "SHA256":  "5fa7fcfb4effe021d9ee067cfd566c227d06c91d21f3ef7f14a6aec9c3c9d04f"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track08.ogg",
+        "Length":  4614248,
+        "SHA256":  "1ed62bfd263b9899fd63491f3f80e917f6c2486cd252a2d1344eb811efc2fce7"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track09.ogg",
+        "Length":  6183297,
+        "SHA256":  "73254ed1b5fe96c577bdf894e14ce7f4f2f6631d7c6c55e53e7202d58c67b99a"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track10.ogg",
+        "Length":  9971666,
+        "SHA256":  "79a118472aaf3434dbe4da4a9685648d59b63560964c237b3697b8d2b1b3436f"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "CD/track11.ogg",
+        "Length":  1239001,
+        "SHA256":  "a6ccc15719366fbbab9c13d70b6ad898757d9dbcf4b8a8cc3548b03affca0314"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "DISPDIB.DLL",
+        "Length":  6992,
+        "SHA256":  "2ea7f4015beedc6d198b5e423c4ef33fab2b73b2ab8c8324a657015d8973ab79"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "ERROR/ERROR.TXT",
+        "Length":  130,
+        "SHA256":  "1b100b9f3ac9ea4998cbe2a965ea688de66c504a28004ad48567a190489f356b"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "GELIOS.GIF",
+        "Length":  2274,
+        "SHA256":  "09cd06c0d301784a8ad80e15f0c723ac25d3c8bef21765429f1149577df79057"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "GOBLIN.GIF",
+        "Length":  5781,
+        "SHA256":  "e559409a7268ef943331a28bcdfeed40d1a2b9aa52c7fa7946b4c7887063193f"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "IGELIOS.DOC",
+        "Length":  75264,
+        "SHA256":  "1bdeb85392699b5943999bfc491ec785245dcd9d48ddbca230872c27c24c2e20"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "IGELIOS.TXT",
+        "Length":  1228,
+        "SHA256":  "2f0a60a1eeea9a078cd752fb0792ee012dfd5227dd5aa09c4f6515be2d42ca6e"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "old-games.nfo",
+        "Length":  1620,
+        "SHA256":  "cc2283945241a42a54020c30fa83aa3c17a91a59c034ae5f444db62e303b1602"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "READ_DOS.TXT",
+        "Length":  8960,
+        "SHA256":  "df3a8bf8b34fd87982c7c3199c1c9b613e6bc8ff1d570115ac5b45ced1a64ddf"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "README.TXT",
+        "Length":  9139,
+        "SHA256":  "c73e702bd7ebf32d3c79e43d0a2522b4bd25f260424c232119efda36921058b6"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "README_MODERN.TXT",
+        "Length":  1694,
+        "SHA256":  "5468ed421813f4b4d53d7baeaca263bdef13fa7698bf565b82bc45e9532ca56c"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC.CMD",
+        "Length":  64000,
+        "SHA256":  "b959414f0e2ecef72b70175f6d8bcabdbca14695a216bae923fbc12543999166"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC1.CMD",
+        "Length":  64000,
+        "SHA256":  "782d9efe70638cffece1a2994bdae66dbd966ce17224cb06be4e6dbf51a64ec0"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC10.CMD",
+        "Length":  64000,
+        "SHA256":  "2ae3fd5c534641264f7ecd5b1be0142e59c15b4e5e33968899a9f8c3f4ee142e"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC2.CMD",
+        "Length":  64000,
+        "SHA256":  "4a753875f566b759ab63ac1a8f56dd07af52efe52eca08f43524f01ed188b4c0"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC3.CMD",
+        "Length":  64000,
+        "SHA256":  "d182d65072e288990ddc26370ec8a89388a8c2a67a66fe1f8a01c7453832de6d"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC4.CMD",
+        "Length":  64000,
+        "SHA256":  "8517c8bf1f693ad3e2a1765b71214f29267bf65daaba8313fbfb7f3effbfed9c"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC5.CMD",
+        "Length":  64000,
+        "SHA256":  "3a21f5f046b764249cad04782d54f34f1ccceb1301ee77b24993bff4b6bb3b5e"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC6.CMD",
+        "Length":  64000,
+        "SHA256":  "340c62dcf9df86181ec11d5e056e9611f2ebe3945e0b83669a208d7838cd022d"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC7.CMD",
+        "Length":  64000,
+        "SHA256":  "c5eaeef524bf45ccf737b6bb377c35aa0a42a063de586b3f146e75847247c8ef"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC8.CMD",
+        "Length":  64000,
+        "SHA256":  "a211f63af3b22acc0db57b858b33ed9dd9dfe28b892e864f0f33805a01aef228"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "REC9.CMD",
+        "Length":  64000,
+        "SHA256":  "164200c398caeb95af51c631901a11859daec5bb614fa94ee471351d7c1fa578"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "SETUP.EXE",
+        "Length":  229376,
+        "SHA256":  "aa764ad6d325388760e010b8054280222e99f76af9eee9d1a1522dfb7040c643"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "SMUTA.DAT",
+        "Length":  8716710,
+        "SHA256":  "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "SMUTA.EXE",
+        "Length":  284160,
+        "SHA256":  "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "smuta.ini",
+        "Length":  151,
+        "SHA256":  "ef347a0a1cea87d60ce28c3e5564051b7ba43edb9b99d330e33c0a698bdc86fc"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "SMUTA.TXT",
+        "Length":  2093,
+        "SHA256":  "738afe62dcd9e0c5d68253f4fd5018655659ce48fa45ddb46871a91b60be73f7"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "smuta_music.dll",
+        "Length":  531456,
+        "SHA256":  "1a47ff1c669c1d71f9660d6a914901374319bdb09891c94dd92a603da864dbdd"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "TEST/SMTEST.TXT",
+        "Length":  502,
+        "SHA256":  "e99aa929a0fc0e3d89906ce0b430b3f9ae902cf7265e5df9cfac2be2f190431b"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "waveopen.dll",
+        "Length":  6144,
+        "SHA256":  "cac7b92b03ef61d81df1274e815414789b29bfa78abf1a0b72e41a0a4964555a"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z0.SPR",
+        "Length":  65078,
+        "SHA256":  "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z1.SPR",
+        "Length":  65078,
+        "SHA256":  "afb77435a6a92523fffee0dd9c3bd940d9125bb4ee693721b111e1d7aec250de"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z10.SPR",
+        "Length":  65078,
+        "SHA256":  "61af0a99ab82866c3276a28215fe027367b6bb5717844ff09878459f4cdd8642"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z2.SPR",
+        "Length":  65078,
+        "SHA256":  "7536c1fc6f427a348e6a5e3bbd581c7ce613b310627d4fc2a97623006c5832a3"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z3.SPR",
+        "Length":  65078,
+        "SHA256":  "0b5d8add6888ceb4e69f5bfeddeb2cb1bfdc5a7701d1b4efa8e19a52690f8872"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z4.SPR",
+        "Length":  65078,
+        "SHA256":  "7f8a5e59b36fe595f46f3ed6eaff437d31b47bae8d7b9904278deab802896984"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z5.SPR",
+        "Length":  65078,
+        "SHA256":  "7bc8829224f3017f1fea2260ca066d9912dcff6cb1483c3263dc916791313359"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z6.SPR",
+        "Length":  65078,
+        "SHA256":  "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z7.SPR",
+        "Length":  65078,
+        "SHA256":  "af542ccdec84e03661846612750178cff6fcdf4a7aeb59a21d354eeef83ec676"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z8.SPR",
+        "Length":  65078,
+        "SHA256":  "9b9bce02e70865355a841b568cd7a422efabc0ff3457d27836e9eefea6aabbbe"
+    },
+    {
+        "Source":  "smuta",
+        "Path":  "Z9.SPR",
+        "Length":  65078,
+        "SHA256":  "f89efcfcc3394bd2f149eefdef49271114a2606f4356ee84f7bf0cd14ba3c8a2"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "brightmaps.pk3",
+        "Length":  246507,
+        "SHA256":  "9d718b748eb11c3b8af94bca520a53c7da636d78d6ebe1c22ab4e8f6c21e7766"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "fm_banks/GENMIDI.GS.wopl",
+        "Length":  118767,
+        "SHA256":  "3e90b1e13007fb97c29d4a6f819519f1065892495c259961913317402a779514"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "fm_banks/gs-by-papiezak-and-sneakernets.wopn",
+        "Length":  274864,
+        "SHA256":  "488327960374b95dcc302e5586622a62fc21bdda7082f92a40258002ed267f40"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "game_support.pk3",
+        "Length":  2918075,
+        "SHA256":  "2bac103c8d67bb1341c88c31bf3512b879d2cf0233372583081375b72240ccb3"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "game_widescreen_gfx.pk3",
+        "Length":  5565904,
+        "SHA256":  "d40b97fa4a349fc0ccd4baa92d55dc2a4ef5090f30e7dc877d3167b0d4fc7c8a"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "libcurl-x64.dll",
+        "Length":  3567208,
+        "SHA256":  "013d0c68b56c46637d0bf338cddbd2fb0f417bdce1127e49b9706bff2fcd64a6"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "licenses.zip",
+        "Length":  49762,
+        "SHA256":  "7ab80c16848d197247fed13ccfa83609e19bd904e5abae2fe38738d9e93c3ebd"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "lights.pk3",
+        "Length":  23637,
+        "SHA256":  "21bede428dc8a691accbd358b80ed2174a7b2e6fe3860f119730f4b4da411ffb"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "sndfile.dll",
+        "Length":  2603520,
+        "SHA256":  "4e3bd2de8e1485110eaebef8e1239471f73d608773831c323bf528e05645655e"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "soft_oal.dll",
+        "Length":  2212352,
+        "SHA256":  "4e2d830d2a3aa85bf17033aa50745e7c1a8bb11ae350fe14fedd2a1292a6e0e8"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "soundfonts/uzdoom.sf2",
+        "Length":  3299098,
+        "SHA256":  "a9058609b07c1f0e0c1f420e76c2e80ba78136e6173e836caab51ffb13e552f1"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "updater.exe",
+        "Length":  113664,
+        "SHA256":  "af12e8c9ad0f6762a8bd2c30b56326f848944918c0f6057b10524dae327fb0d7"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "uzdoom.exe",
+        "Length":  17872896,
+        "SHA256":  "e6df57d1027cee089d33388ab743817a236148992ac3881d9141ea2b547677d9"
+    },
+    {
+        "Source":  "uzdoom",
+        "Path":  "uzdoom.pk3",
+        "Length":  7159816,
+        "SHA256":  "b8f1993f71c7d027e66ebbdfe06ff41d59c65fe09a5d6e87e7163c3a385f1a16"
+    }
+]
