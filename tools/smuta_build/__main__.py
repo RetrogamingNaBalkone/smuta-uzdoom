@@ -16,11 +16,16 @@ from .animations import decode_animations
 from .auxgraphics import decode_auxgraphics
 from .sounds import decode_sounds
 from .standalone import build_standalone
+from .pipeline import run_pipeline
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Структурные инструменты Смуты")
     commands = parser.add_subparsers(dest="command", required=True)
+    verify = commands.add_parser("verify")
+    verify.add_argument("--output", type=Path)
+    verify.add_argument("--engine-source", type=Path)
+    verify.add_argument("--timeout", type=float, default=25)
     standalone = commands.add_parser("standalone")
     standalone.add_argument("--output", type=Path, required=True)
     for name in ("extract", "check", "pack", "text", "ir", "validate", "levels", "graphics", "animations", "auxgraphics", "sounds"):
@@ -35,7 +40,10 @@ def main() -> int:
             command.add_argument("--dat-source", type=Path)
     args = parser.parse_args()
     try:
-        if args.command == "standalone":
+        if args.command == "verify":
+            report = run_pipeline(args.output, args.engine_source, args.timeout)
+            result = {key: report[key] for key in ("root", "passed", "reproducible", "package", "engine")}
+        elif args.command == "standalone":
             result = build_standalone(args.output)
         elif args.command == "validate":
             report = write_report(args.source, args.ir, args.output, args.mode)

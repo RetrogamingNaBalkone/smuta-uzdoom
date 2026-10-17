@@ -1,13 +1,14 @@
 ﻿# Единый вход ENV-02. Все результаты остаются в build/ или dist/.
 [CmdletBinding()]
 param(
-    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations', 'AuxGraphics', 'Sounds', 'Standalone')]
+    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations', 'AuxGraphics', 'Sounds', 'Standalone', 'Verify')]
     [string]$Task = 'Test',
     [string]$Source,
     [string]$Output,
     [string]$Stage,
     [string]$Archive,
     [string]$IR,
+    [string]$EngineSource,
     [ValidateSet('raw', 'research', 'release')]
     [string]$Mode = 'raw'
 )
@@ -16,7 +17,8 @@ $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 if (-not $Source) { $Source = Join-Path $repo 'originals/smuta_modern_20261013/smuta_modern/SMUTA.DAT' }
 if (-not $Output) {
-    if ($Task -eq 'Standalone') { $Output = Join-Path $repo 'build/uzd-01/smuta-uzd01.ipk3' }
+    if ($Task -eq 'Verify') { $Output = Join-Path $repo ('build/qa01 ' + [guid]::NewGuid().ToString('N')) }
+    elseif ($Task -eq 'Standalone') { $Output = Join-Path $repo 'build/uzd-01/smuta-uzd01.ipk3' }
     elseif ($Task -eq 'Text') { $Output = Join-Path $repo 'build/decoded/smuta-text' }
     elseif ($Task -eq 'IR') { $Output = Join-Path $repo 'build/ir/smuta' }
     elseif ($Task -eq 'Validate') { $Output = Join-Path $repo 'build/ir/smuta-validation.json' }
@@ -63,8 +65,13 @@ try {
     if ($Task -eq 'Standalone') {
         Invoke-Python -PythonArguments @('-m', 'smuta_build', 'standalone', '--output', $Output)
     }
-    if ($Task -in @('Test', 'Build')) {
+    if ($Task -in @('Test', 'Build', 'Verify')) {
         Invoke-Python -PythonArguments @('-m', 'unittest', 'discover', '-s', (Join-Path $repo 'tests'), '-v')
+    }
+    if ($Task -eq 'Verify') {
+        $verifyArguments = @('-m', 'smuta_build', 'verify', '--output', $Output)
+        if ($EngineSource) { $verifyArguments += @('--engine-source', $EngineSource) }
+        Invoke-Python -PythonArguments $verifyArguments
     }
     if ($Task -in @('Extract', 'Build')) {
         Invoke-Python -PythonArguments @('-m', 'smuta_build', 'extract', '--source', $Source, '--output', $Output)

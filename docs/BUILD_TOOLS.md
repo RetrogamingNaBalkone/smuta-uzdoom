@@ -32,6 +32,11 @@ PowerShell 5.1 остаётся единым входом Windows и языко�
 
 ## Команды
 
+BUILD-01/QA-01: `./tools/Build.ps1 -Task Verify` выполняет автономные тесты,
+собирает два одинаковых самостоятельных IPK3, проверяет манифест и запускает
+пакет с изолированной конфигурацией. [Параметры и приёмка](BUILD_PIPELINE.md).
+Это отдельная задача; прежний `-Task Build` сохраняет конвейер извлечения DAT.
+
 GFX-03 добавила `./tools/Build.ps1 -Task AuxGraphics` и приёмку
 `./build/tools-venv/Scripts/python.exe -B ./tests/verify_auxgraphics.py`.
 Модуль `auxgraphics` экспортирует FONT8/FONT16, карту символов, три области
