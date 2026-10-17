@@ -1,0 +1,170 @@
+{
+  "format": "smuta-graphics-session-results",
+  "version": 1,
+  "date": "2026-10-17",
+  "reference": "Smutabor Patch",
+  "git_revision": "cf86fb728c0aee31a7a6fb3d811a4b7da75686af",
+  "working_tree_dirty": true,
+  "uzdoom_file_version": "5.0.3",
+  "unit_tests": 63,
+  "unit_tests_passed": true,
+  "animations": {
+    "animations": 98,
+    "frames": 1021,
+    "files": 2140,
+    "release_ready": false,
+    "directional_animations": 11,
+    "fl_extension": 64,
+    "references": 7445,
+    "referenced_animations": 65,
+    "text_resources": 42,
+    "inputs_sha256": {
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD.DAT": "e12ab2cbeda84e228058363922b13c023ed7af5b9bbec26e9d92b31beb28e6ad",
+      "originals\\smuta_modern_20261013\\smuta_modern\\DISPDIB.DLL": "2ea7f4015beedc6d198b5e423c4ef33fab2b73b2ab8c8324a657015d8973ab79",
+      "originals\\smuta_modern_20261013\\smuta_modern\\GELIOS.GIF": "09cd06c0d301784a8ad80e15f0c723ac25d3c8bef21765429f1149577df79057",
+      "originals\\smuta_modern_20261013\\smuta_modern\\GOBLIN.GIF": "e559409a7268ef943331a28bcdfeed40d1a2b9aa52c7fa7946b4c7887063193f",
+      "originals\\smuta_modern_20261013\\smuta_modern\\IGELIOS.DOC": "1bdeb85392699b5943999bfc491ec785245dcd9d48ddbca230872c27c24c2e20",
+      "originals\\smuta_modern_20261013\\smuta_modern\\IGELIOS.TXT": "2f0a60a1eeea9a078cd752fb0792ee012dfd5227dd5aa09c4f6515be2d42ca6e",
+      "originals\\smuta_modern_20261013\\smuta_modern\\old-games.nfo": "cc2283945241a42a54020c30fa83aa3c17a91a59c034ae5f444db62e303b1602",
+      "originals\\smuta_modern_20261013\\smuta_modern\\README.TXT": "c73e702bd7ebf32d3c79e43d0a2522b4bd25f260424c232119efda36921058b6",
+      "originals\\smuta_modern_20261013\\smuta_modern\\README_MODERN.TXT": "5468ed421813f4b4d53d7baeaca263bdef13fa7698bf565b82bc45e9532ca56c",
+      "originals\\smuta_modern_20261013\\smuta_modern\\READ_DOS.TXT": "df3a8bf8b34fd87982c7c3199c1c9b613e6bc8ff1d570115ac5b45ced1a64ddf",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC.CMD": "b959414f0e2ecef72b70175f6d8bcabdbca14695a216bae923fbc12543999166",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC1.CMD": "782d9efe70638cffece1a2994bdae66dbd966ce17224cb06be4e6dbf51a64ec0",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC10.CMD": "2ae3fd5c534641264f7ecd5b1be0142e59c15b4e5e33968899a9f8c3f4ee142e",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC2.CMD": "4a753875f566b759ab63ac1a8f56dd07af52efe52eca08f43524f01ed188b4c0",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC3.CMD": "d182d65072e288990ddc26370ec8a89388a8c2a67a66fe1f8a01c7453832de6d",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC4.CMD": "8517c8bf1f693ad3e2a1765b71214f29267bf65daaba8313fbfb7f3effbfed9c",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC5.CMD": "3a21f5f046b764249cad04782d54f34f1ccceb1301ee77b24993bff4b6bb3b5e",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC6.CMD": "340c62dcf9df86181ec11d5e056e9611f2ebe3945e0b83669a208d7838cd022d",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC7.CMD": "c5eaeef524bf45ccf737b6bb377c35aa0a42a063de586b3f146e75847247c8ef",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC8.CMD": "a211f63af3b22acc0db57b858b33ed9dd9dfe28b892e864f0f33805a01aef228",
+      "originals\\smuta_modern_20261013\\smuta_modern\\REC9.CMD": "164200c398caeb95af51c631901a11859daec5bb614fa94ee471351d7c1fa578",
+      "originals\\smuta_modern_20261013\\smuta_modern\\SETUP.EXE": "aa764ad6d325388760e010b8054280222e99f76af9eee9d1a1522dfb7040c643",
+      "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.DAT": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+      "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.EXE": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+      "originals\\smuta_modern_20261013\\smuta_modern\\smuta.ini": "ef347a0a1cea87d60ce28c3e5564051b7ba43edb9b99d330e33c0a698bdc86fc",
+      "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.TXT": "738afe62dcd9e0c5d68253f4fd5018655659ce48fa45ddb46871a91b60be73f7",
+      "originals\\smuta_modern_20261013\\smuta_modern\\smuta_music.dll": "1a47ff1c669c1d71f9660d6a914901374319bdb09891c94dd92a603da864dbdd",
+      "originals\\smuta_modern_20261013\\smuta_modern\\waveopen.dll": "cac7b92b03ef61d81df1274e815414789b29bfa78abf1a0b72e41a0a4964555a",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z0.SPR": "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z1.SPR": "afb77435a6a92523fffee0dd9c3bd940d9125bb4ee693721b111e1d7aec250de",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z10.SPR": "61af0a99ab82866c3276a28215fe027367b6bb5717844ff09878459f4cdd8642",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z2.SPR": "7536c1fc6f427a348e6a5e3bbd581c7ce613b310627d4fc2a97623006c5832a3",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z3.SPR": "0b5d8add6888ceb4e69f5bfeddeb2cb1bfdc5a7701d1b4efa8e19a52690f8872",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z4.SPR": "7f8a5e59b36fe595f46f3ed6eaff437d31b47bae8d7b9904278deab802896984",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z5.SPR": "7bc8829224f3017f1fea2260ca066d9912dcff6cb1483c3263dc916791313359",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z6.SPR": "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z7.SPR": "af542ccdec84e03661846612750178cff6fcdf4a7aeb59a21d354eeef83ec676",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z8.SPR": "9b9bce02e70865355a841b568cd7a422efabc0ff3457d27836e9eefea6aabbbe",
+      "originals\\smuta_modern_20261013\\smuta_modern\\Z9.SPR": "f89efcfcc3394bd2f149eefdef49271114a2606f4356ee84f7bf0cd14ba3c8a2",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track02.ogg": "422395943610cfc8d6038640fe38243dd89086e5239ce158e9977f781808d244",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track03.ogg": "9f8ffc3f67a9181f414a8f130a569e962e15a5baf20af71ad9d2b44def80647e",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track04.ogg": "da7b522fa8334834cabaaddf4da5b4a1b2050706ff8d9d12219725ff056c13e5",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track05.ogg": "e5d38b10ceb4b8deb8019dd606641544c4363be98eec5e02759f4ef892d0b008",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track06.ogg": "45159cd62fe023e56974fba73337e08ccb987b687127f6c93db10c92cf2d861e",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track07.ogg": "5fa7fcfb4effe021d9ee067cfd566c227d06c91d21f3ef7f14a6aec9c3c9d04f",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track08.ogg": "1ed62bfd263b9899fd63491f3f80e917f6c2486cd252a2d1344eb811efc2fce7",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track09.ogg": "73254ed1b5fe96c577bdf894e14ce7f4f2f6631d7c6c55e53e7202d58c67b99a",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track10.ogg": "79a118472aaf3434dbe4da4a9685648d59b63560964c237b3697b8d2b1b3436f",
+      "originals\\smuta_modern_20261013\\smuta_modern\\CD\\track11.ogg": "a6ccc15719366fbbab9c13d70b6ad898757d9dbcf4b8a8cc3548b03affca0314",
+      "originals\\smuta_modern_20261013\\smuta_modern\\ERROR\\ERROR.TXT": "1b100b9f3ac9ea4998cbe2a965ea688de66c504a28004ad48567a190489f356b",
+      "originals\\smuta_modern_20261013\\smuta_modern\\TEST\\SMTEST.TXT": "e99aa929a0fc0e3d89906ce0b430b3f9ae902cf7265e5df9cfac2be2f190431b",
+      "uzdoom\\uzdoom.exe": "e6df57d1027cee089d33388ab743817a236148992ac3881d9141ea2b547677d9",
+      "uzdoom\\uzdoom.pk3": "b8f1993f71c7d027e66ebbdfe06ff41d59c65fe09a5d6e87e7163c3a385f1a16"
+    },
+    "source_hashes_unchanged": true,
+    "reproducible": true,
+    "coverage_sha256": "c5f64f906783a485fb4a61e68ea504947c4af89f325d77c275962b1cc0a5d7e9",
+    "catalog_sha256": "91094c67db5f7a432de1d8625794545882b437c00b7332c9626ab354225aaa1c",
+    "reference_timing_comparison": "not-performed",
+    "uzdoom_direction_scene": "not-performed"
+  },
+  "tools_sha256": {
+    "tools/smuta_build/animations.py": "a0aeefca4825097a3998d3a37a7aa754ec2dae540dcbaa6d94f63dd9b704431b",
+    "tools/smuta_build/graphics.py": "200e45cb941422d106e1beba6cdefbd0a27636d6d21b223aad5d72e0ac583763",
+    "tools/smuta_build/__main__.py": "5665f93e09e5a218979ddbab28bd53f4ab1fcf822ad42dc592fdf4fea8278a02",
+    "tools/Build.ps1": "0c3eb09a47f2e735b4ff7ec67ce4950ed308a9175411ac0a6b7ce68b52b172ba",
+    "profiles/smuta/graphics.json": "59b65a07f51c58f74baeba4e242780786dcd087b3d977956df8ceec9c4a46768",
+    "tests/test_animations.py": "fac89dbc1114a42edafe3081af2e259a78ede3666370cc3b1a3f4554f46d0d98",
+    "tests/verify_animations.py": "4994e3be9db325e3597bad3f01030e129e5801f391d7c549b4f859d439f59eb1",
+    "tests/verify_graphics.py": "de0b5f2c4f648ce032a5a9065b43eda07e727834b91f87d318dd904b9590b0b5"
+  },
+  "captures": [
+    {
+      "path": "build/measurements/gfx-20261017/difficulty.jpg",
+      "length": 142951,
+      "sha256": "dfbf271f6de3f019a4f77c3a9892071984bc0899f6d491ab8839731ddd36290c",
+      "captured_utc": null
+    },
+    {
+      "path": "build/measurements/gfx-20261017/items-floor-wall.jpg",
+      "length": 179878,
+      "sha256": "969e354803169fc01e4abcd5e1ceda0a66d5312bc9a1d8f3ac22eb6af37d88bf",
+      "captured_utc": null
+    },
+    {
+      "path": "build/measurements/gfx-20261017/items-front.jpg",
+      "length": 161621,
+      "sha256": "b01833ccfc3b0274060537e4a209948ff610b5ede815e34cfc8212b75eed0d0f",
+      "captured_utc": null
+    },
+    {
+      "path": "build/measurements/gfx-20261017/level1-start.jpg",
+      "length": 131770,
+      "sha256": "32d1ac074ded6ea7fbcb2d36d07d439a9aadcb7081b21b83f822d5f1004c468e",
+      "captured_utc": null
+    },
+    {
+      "path": "build/measurements/gfx-20261017/menu.jpg",
+      "length": 132966,
+      "sha256": "a118ac85ebecaacf772aa4e9abe899d96ca96b8e851d969f0ed18411b891f9d1",
+      "captured_utc": null
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-01.jpg",
+      "length": 111767,
+      "sha256": "2b3f8fd37a99da8526f78bff9fab0468afd4e02a684c0f4ff7a644f403f98a86",
+      "captured_utc": "2026-10-17T18:22:05.090Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-02.jpg",
+      "length": 120236,
+      "sha256": "999856d213a680c7816b3eb3b42bd4adb917922a43f3d7c139e1c9fc315215a4",
+      "captured_utc": "2026-10-17T18:22:41.766Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-03.jpg",
+      "length": 116589,
+      "sha256": "634bdbc6ac5b0dacf932c5357152bb2c9ac40e2f92677f07e65819169e6af923",
+      "captured_utc": "2026-10-17T18:23:26.211Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-04.jpg",
+      "length": 105187,
+      "sha256": "1b91cdd4efecae27f996b191a680c67c7e0fa36517ba35bdc3b3872b594c2bf2",
+      "captured_utc": "2026-10-17T18:23:50.762Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-05.jpg",
+      "length": 133799,
+      "sha256": "76bda5e490f8d2fa0418eb7e83839dc522175ab39e267a2b56d347d73b711cdd",
+      "captured_utc": "2026-10-17T18:24:53.364Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-06.jpg",
+      "length": 127518,
+      "sha256": "d5985758dda5069867f10496de770f9693433d3688858b076a7784d00859b4d6",
+      "captured_utc": "2026-10-17T18:25:33.966Z"
+    },
+    {
+      "path": "build/measurements/gfx-demo-20261017/demo-07.jpg",
+      "length": 125381,
+      "sha256": "780df9c0c3d3e92a115767e23d655490a3c45ecbb837b52443ab4258ae813d8c",
+      "captured_utc": "2026-10-17T18:26:18.653Z"
+    }
+  ],
+  "reference_comparison": "qualitative-only",
+  "capture_stopped": "physical-Escape",
+  "release_ready": false
+}

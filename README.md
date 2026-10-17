@@ -51,6 +51,7 @@ CD-треки «Смуты» поставляются отдельным **оп�
 - [Парсер текстов TXT-01, грамматика и проверка сеток](docs/SMUTA_TEXT.md).
 - [Сравнение вариантов, сложность и маршрут LVL-01](docs/SMUTA_LEVELS.md).
 - [Промежуточная модель IR-01 и проверка допуска IR-02](docs/SMUTA_IR.md).
+- [Декодеры графики/FL и правила отображения GFX-01/GFX-02](docs/SMUTA_GRAPHICS.md).
 - [Реестр неизвестных и отклонений ENV-03](docs/RESEARCH_REGISTRY.md),
   [сценарии сравнения](docs/COMPARISON_SCENARIOS.md) и
   [шаблон протокола замера](docs/templates/MEASUREMENT_PROTOCOL.md).

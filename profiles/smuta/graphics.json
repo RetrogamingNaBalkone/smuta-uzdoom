@@ -1,0 +1,341 @@
+{
+  "format": "smuta-graphics-selection",
+  "version": 2,
+  "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+  "spr18_without_extension": [
+    65,
+    66,
+    67,
+    68,
+    182,
+    186,
+    191,
+    192,
+    193,
+    195,
+    196,
+    198,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    225,
+    226,
+    227,
+    236,
+    237,
+    247,
+    254,
+    257,
+    260,
+    261,
+    264,
+    274,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    343,
+    344,
+    357
+  ],
+  "fl_without_extension": [
+    197,
+    199,
+    200,
+    201,
+    202,
+    234,
+    235,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    255,
+    256,
+    258,
+    259,
+    263,
+    268,
+    269,
+    271,
+    272,
+    273,
+    275,
+    276,
+    277,
+    278,
+    291,
+    292,
+    293,
+    338
+  ],
+  "fl_status": "source-decoding-indexing-timing-established; final-uzdoom-comparison-deferred",
+  "selection_status": "structural-candidates; not semantic classification",
+  "exe_sha256": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+  "evidence": [
+    {
+      "va": "00409C0C",
+      "offset": 37388,
+      "length": 55,
+      "bytes_hex": "558bec53568b750c56e8ea660000598bd856538b4508508b10ff520c8d4b128bc3894b0e83c40c66c74308000066c7430601005e5b5dc3",
+      "meaning": "Загрузчик SPR заменяет +14 указателем на +18; +6=1, +8=0"
+    },
+    {
+      "va": "0041D904",
+      "offset": 118532,
+      "length": 85,
+      "bytes_hex": "558bec5153568b750856ff35c4f64400e883fcfeff83c4088bd885db75318d45fc5056ff35c4f64400e89efcfeff83c40cff75fc50e8cec2feff83c4088bd85356ff35c4f64400e81cfcfeff83c40c8bc35e5b595d",
+      "meaning": "Путь загрузки SPR из DAT"
+    },
+    {
+      "va": "0040A326",
+      "offset": 39206,
+      "length": 281,
+      "bytes_hex": "8b501289138d53108b4dd48b411689430489730889530c8b0b81e10300008079054983c9fc4185c974148b0385c0790383c003c1f802c1e00283c004eb028b038945d08b53048b4b0c4a0faf1303d18955cc8b45d48b4dd48b500a03d133c08955c88945c4eb2933f68b45cc8bd08b4dc88bc1eb078a08880a4642408b0b3bf17cf3ff45c48b45d00145c88b132955cc8b43048b55c43bc27fcd8b450c33d28955c48d50028b45d483c0368a0884c90f94c183e1018bf18a480184c90f94c183e10123f18a480284c90f94c183e10123f1740c33c9880a884aff884afeeb2833c98a08c1f90280e13f880a33c98a4801c1f90280e13f884aff33c98a4802c1f90280e13f884afeff45c483c20383c0048b4dc481f900010000",
+      "meaning": "BMP: переворот строк и BGR8 в RGB6 через >>2"
+    }
+  ],
+  "fl_evidence": [
+    {
+      "va": "0041D95A",
+      "offset": 118618,
+      "length": 86,
+      "bytes_hex": "558bec5153568b750856ff35c4f64400e82dfcfeff83c4088bd885db75318d45fc5056ff35c4f64400e848fcfeff83c40cff75fc50e87c92000083c4088bd85356ff35c4f64400e8c6fbfeff83c40c8bc35e5b595dc3",
+      "meaning": "Путь загрузки FL из DAT"
+    },
+    {
+      "va": "00426C10",
+      "offset": 156176,
+      "length": 99,
+      "bytes_hex": "558bec53568b750c56e8e696feff598bd856538b4508508b10ff520c83c40c8d4b0c894b080fbf430403c08d048003430833d2eb220fbfca8d0c898b730889444e068d481289480e66c7400408008b480e03480a8bc142663b53047cd88bc35e5b5dc3",
+      "meaning": "Загрузчик FL12: таблица +12, записи 10 байт, последовательные SPR18"
+    },
+    {
+      "va": "00426946",
+      "offset": 155462,
+      "length": 177,
+      "bytes_hex": "558bec5153568b4d188b5d0866ff01668b01663b43027c0c66c701ffff33c0e98800000033f666833b0074260fbf451c0fbf13d1fa03c2be6801000099f7fe8bc20fbf138bf299f7fe8bf00fbf43020faff0660331663b73047c246a006a006a006a006a006a00c745fc8c7343008d55fc5268a53f4000e8a636000083c4200fbfce8bc103c08d04800343088b550c668b480266890a8b5510668b480466890a8b5514668b0866890a8b40065e5b595dc3",
+      "meaning": "Следующий кадр; завершение -1/null, выходные три слова таблицы"
+    },
+    {
+      "va": "004269F7",
+      "offset": 155639,
+      "length": 158,
+      "bytes_hex": "558bec5153568b4d0c8b5d086685c97d0433c9eb0b663b4b027c05668b4b024933f666833b0074260fbf45140fbf13d1fa03c2be6801000099f7fe8bc20fbf138bf299f7fe8bf00fbf43020faff06603f1663b73047d056685f67d246a006a006a006a006a006a00c745fca17343008d55fc5268a53f4000e8f435000083c4200fbfce8bc103c08d0480034308668b108b4d106689118b40065e5b595dc3",
+      "meaning": "Выбор направления и кадра по углу"
+    },
+    {
+      "va": "0041DCCC",
+      "offset": 119500,
+      "length": 132,
+      "bytes_hex": "558bec83c4f8538b5d08837b2c00740953e860a0000059eb668b431c6683380075276a008d5330528d4dfe518d45fa508d55fc528b4b1c51e83d8c000083c41889432085c074dbeb28668b5332528d4b30518d45fe508d55fa528d4dfc518b431c50e8138c000083c41889432085c074d80fbf55fe5253e83ca0000083c4085b59595dc3",
+      "meaning": "Потребитель word0 таблицы передаёт значение в планировщик"
+    },
+    {
+      "va": "00427D84",
+      "offset": 160644,
+      "length": 35,
+      "bytes_hex": "558bec8b4d0c8bc1c1e0038d0440b9e803000033d2f7f18bc8a1387643008948045dc3",
+      "meaning": "Преобразование параметра задержки: value * 24 / 1000"
+    }
+  ],
+  "rendering_rules": {
+    "spr_storage": "row-major-top-down",
+    "palette": {
+      "source_channel_order": "RGB",
+      "component_bits": 6,
+      "rgb8_conversion": "component << 2",
+      "menu_and_level_palette": "GAMEP1",
+      "final_display_comparison": "deferred"
+    },
+    "transparency": {
+      "source_index": 0,
+      "policy": "caller-context",
+      "screen_spr_masked_mode": "runtime SPR word +4 == 8",
+      "world_masked_mode": "runtime SPR word +4 bit 3",
+      "world_blend_mode": "runtime SPR word +4 bit 0; skip zero before blend",
+      "opaque_mode": "draw index zero too",
+      "preview_alpha": "none"
+    },
+    "world_billboard_anchor": "bottom-center; caller supplies position, scale and vertical offset",
+    "weapon_frame_offsets": {
+      "x": "FL table word +2",
+      "y": "FL table word +4",
+      "unit": "source-screen-pixels",
+      "scope": "weapon-screen-caller"
+    },
+    "view_angle": "normalize(object.angle + angle_function(object.pos38-camera.pos38, object.pos30-camera.pos30)); coincident/absent camera: 0",
+    "png_anchor": null
+  },
+  "timing_rules": {
+    "delay_counter": "floor(nonnegative_word0 * 24 / 1000)",
+    "callback_updates": "counter + 1; test old count before decrement",
+    "clock_source": "KERNEL32.GetTickCount",
+    "clock_divisor_ms": 55,
+    "nominal_duration_ms": "(floor(word0 * 24 / 1000) + 1) * 55",
+    "scope": "scheduled callbacks; nominal steady loop, not guaranteed wall-clock duration under load",
+    "catch_up": "main loop consumes one pending step and caps remaining backlog at two",
+    "uzdoom_time_conversion": "deferred until runtime integration"
+  },
+  "render_evidence": [
+    {
+      "va": "00401F22",
+      "offset": 5410,
+      "length": 33,
+      "bytes_hex": "66837a04080f94c283e2018955ec668b4518663b45fa0f8ec100000066c745ea00",
+      "meaning": "Экранный SPR: режим прозрачности"
+    },
+    {
+      "va": "00401F84",
+      "offset": 5508,
+      "length": 128,
+      "bytes_hex": "8b5dec85db74068a1a84db740e0fbfd98b7de08b3f03fb8a1a881f660345f841663bf07edb660345184266ff45e80fb75de80fbf7dfa3bdf7cbb668b45f2660145f0ff45108345d804668b55f0663b55f47d89668b4d1c66014df00fbf45fa0145fc66ff45ea0fb755ea0fbf4df63bd10f8c4fffffffe9b300000066c745e600",
+      "meaning": "SPR: последовательные строки и увеличение экранного Y"
+    },
+    {
+      "va": "00404BB8",
+      "offset": 16824,
+      "length": 75,
+      "bytes_hex": "558bec538b550c52a18442430050e8f5f6ffff83c4088bd033c9b8b3424300c60000418a1a42c1e3028858ff8a1a42c1e3028858fe8a1a42c1e3028858fd83c00481f9000100007cd65b5d",
+      "meaning": "Палитра RGB6: каналы <<2, запись BGRX"
+    },
+    {
+      "va": "00402280",
+      "offset": 6272,
+      "length": 31,
+      "bytes_hex": "f64004010f95c283e201668915a49d43008b5510f64104080f95c083e00166",
+      "meaning": "Мировой SPR: биты режима 1 и 8"
+    },
+    {
+      "va": "00406F59",
+      "offset": 25945,
+      "length": 58,
+      "bytes_hex": "66833da49d43000074098b5c2420e96501000066833da69d4300000f85a30000008b0c24498b44240c8a1e03f08a1b0354241873040374240888",
+      "meaning": "Выбор ветви рисования; непрозрачная ветвь"
+    },
+    {
+      "va": "00407027",
+      "offset": 26151,
+      "length": 12,
+      "bytes_hex": "8a1e84db74078a1b66890188",
+      "meaning": "Маска мирового SPR: пропуск нулевого индекса"
+    },
+    {
+      "va": "0040708F",
+      "offset": 26255,
+      "length": 12,
+      "bytes_hex": "8a2684e4740f8a078a041888",
+      "meaning": "Смешивание мирового SPR: пропуск нулевого индекса"
+    },
+    {
+      "va": "00407180",
+      "offset": 26496,
+      "length": 209,
+      "bytes_hex": "53565783c4e40fbf05fa9c43008b15a09d43008904248bca81e2ffff0000c1f9100fafc8894c24048b0d989d43008bd981e1ffff0000c1fb100fafd8a1009d430003d8a1949d4300c1f81003d80fbf058c9d4300895c24080fbf1d8e9d43008b0485f090430003c3c1e2108944240c895424100fbf158c9d43000fbf05929d4300c1e1102bc283c002894c2414894424188b4c24188b7424088b7c240c8b5424148b5c2410a1d0904300eb1b8a0684c074048a108817033da03f44000374240403d373030334244975e283c41c5f5e5bc3",
+      "meaning": "Текстурная колонка: адрес строки/столбца и пропуск нуля"
+    },
+    {
+      "va": "0040E07C",
+      "offset": 54908,
+      "length": 36,
+      "bytes_hex": "0fbf4d14d1f92bf10faff0c1fe0f0fbf15d0eb440003f20fbf4d14d1f98b55f803ca0faf",
+      "meaning": "Billboard: горизонтальная привязка по центру"
+    },
+    {
+      "va": "0040E11B",
+      "offset": 55067,
+      "length": 93,
+      "bytes_hex": "0fbf55108b4dfc2bca0fafc80fbf15d2eb4400c1f90f03ca894b29894b1df76dfc0fbf15d2eb4400c1f80f8d4fce03c2894341894335894b45894b39894b2d894b218b43358b15d8eb44003bc27e0d8b431d8b15e0eb44003bc27c0c80",
+      "meaning": "Billboard: верхняя и нижняя вертикальные координаты"
+    },
+    {
+      "va": "0041E4B4",
+      "offset": 121524,
+      "length": 269,
+      "bytes_hex": "558bec83c4c85356578b5d086a008d45fe50e899f5ffff83c4088b550c66833a00745a8b0db4aa48008b815407000085c0744a8d70308d7dc8b90d000000f3a58b7dd08b73383bfe750e8b43308b55c83bc2750433c0eb298b53308b4dc82bd1522bf756e803abfeff83c4086603433c508d45fe50e866f5ffff83c408668b45fe5f5e5b8be55dc3558bec53568b5d088b436485c0751333d28a531a5268ec664300e84496000083c408f6431c0874268b736866833e00741d5653e840ffffff83c408508d4372506a0056e87384000083c410894364f6431b01740a8b536466834a0401eb088b4b6466836104fef6431b08740a8b43646683480408eb088b536466836204f78b43645e5b5dc3",
+      "meaning": "Угол относительно камеры и флаги рисования предмета"
+    },
+    {
+      "va": "00421DBA",
+      "offset": 136122,
+      "length": 258,
+      "bytes_hex": "8b73685653e8f0c6ffff83c4088d8bb5000000508d4372508d83b3000000668b537052515056e8b04c000083c4188943640fbf53725253e88e5f000083c4085e5b5dc3909090558bec83c4f85356578b5d088b43640fbf108955f8db45f8d80ddc904300e809de00000fbff00fbf3de4eb44000faff7c1fe038b43640fbf50028955f8db45f8d80de0904300e8e1dd00000fbfc0f7ef8b15d4eb44008b0ddceb440003d18b0dd4eb44008b3ddceb44002bd603cfc1f902d1fa03d18955fc8b15e0eb4400c1f803668b8bb1000000508d78fe56d3ff8b43642bd7500fbf8bb500000003d1520fbf93b30000008b45fc03d0528b1540f64400528b0aff514483c418a1",
+      "meaning": "Оружие: смещения X/Y из FL и экранное положение"
+    },
+    {
+      "va": "00424B3E",
+      "offset": 147774,
+      "length": 80,
+      "bytes_hex": "689f704300a1c4f6440050e8ee88feff83c40868000300005068249e4900e88344000083c40c68249e49008b157ca1490052e8efbffeff83c40868a6704300e8828dffff59a3b4a14900e873ffffffc3",
+      "meaning": "Меню: загрузка GAMEP1 и заставки"
+    }
+  ],
+  "timing_evidence": [
+    {
+      "va": "00427D84",
+      "offset": 160644,
+      "length": 35,
+      "bytes_hex": "558bec8b4d0c8bc1c1e0038d0440b9e803000033d2f7f18bc8a1387643008948045dc3",
+      "meaning": "Параметр задержки в счётчик: value*24/1000"
+    },
+    {
+      "va": "00427E03",
+      "offset": 160771,
+      "length": 66,
+      "bytes_hex": "8d049b8b178b0c82830482ff85c97f34a1347643008945f8ff35347643008d149b8b0f8b449108ffd0598b55f88915347643008d0c9b8b078b5488048d0c9b8b0789",
+      "meaning": "Проверка старого счётчика, callback через N+1 проходов и перезагрузка"
+    },
+    {
+      "va": "00409A78",
+      "offset": 36984,
+      "length": 19,
+      "bytes_hex": "558bece838940200b93700000033d2f7f15dc3",
+      "meaning": "GetTickCount / 55"
+    },
+    {
+      "va": "00432EB8",
+      "offset": 206008,
+      "length": 6,
+      "bytes_hex": "ff2554b24900",
+      "meaning": "Переход через IAT 0049B254 к GetTickCount"
+    },
+    {
+      "va": "00425C57",
+      "offset": 152151,
+      "length": 139,
+      "bytes_hex": "8b154ca3490085d2755054e8113efeff598bd8891d50a34900a148a349002bd8891d4ca34900eb1c54e8f33dfeff598bd8891d50a34900a148a349002bd8891d4ca349008b154ca3490085d274da8b0d50a34900890d48a34900ff0d4ca34900a14ca3490083f802760ac7054ca349000200000054e8673dfeff598d54240c52e85c3dfeff59e8c5200000",
+      "meaning": "Главный цикл: накопление и ограничение шагов, вызов планировщика"
+    }
+  ]
+}
