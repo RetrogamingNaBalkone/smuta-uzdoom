@@ -14,12 +14,13 @@ from .levels import write_comparison
 from .graphics import decode_graphics
 from .animations import decode_animations
 from .auxgraphics import decode_auxgraphics
+from .sounds import decode_sounds
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Структурные инструменты Смуты")
     commands = parser.add_subparsers(dest="command", required=True)
-    for name in ("extract", "check", "pack", "text", "ir", "validate", "levels", "graphics", "animations", "auxgraphics"):
+    for name in ("extract", "check", "pack", "text", "ir", "validate", "levels", "graphics", "animations", "auxgraphics", "sounds"):
         command = commands.add_parser(name)
         command.add_argument("--source", type=Path, required=True)
         command.add_argument("--output", type=Path, required=True)
@@ -42,7 +43,7 @@ def main() -> int:
                       "text": decode_archive, "ir": write_model,
                       "levels": write_comparison, "graphics": decode_graphics,
                       "animations": decode_animations,
-                      "auxgraphics": decode_auxgraphics}[args.command](args.source, args.output)
+                      "auxgraphics": decode_auxgraphics, "sounds": decode_sounds}[args.command](args.source, args.output)
         if args.command == "extract":
             result = {"entries": len(result["entries"]), **result["container"]}
         print(json.dumps(result, ensure_ascii=True, indent=2))

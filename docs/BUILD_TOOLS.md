@@ -227,3 +227,18 @@ SPR сверху вниз, смещения оружия и вычисленны
 65 автономных тестов и обе проверки verify_graphics.py/verify_animations.py прошли;
 повторные экспорты идентичны. [Объём приёмки и отчёты](SMUTA_GRAPHICS.md#итоговая-проверка-правил-по-exe).
 Точная сверка на UZDoom отложена; релизный допуск не включён.
+
+### Звуки SND-01, 17 октября 2026
+
+`./tools/Build.ps1 -Task Sounds -Output build/decoded/smuta-sounds-snd01`
+проверяет RIFF/PCM по чанкам, копирует все 156 WAV и создаёт исследовательские
+SNDINFO, bindings.json и manifest.json. Выход должен быть новым или пустым.
+Команда CLI: `python -B -m smuta_build sounds --source <DAT> --output <build/каталог>`.
+[Формат, происхождение, ограничения и результаты](SMUTA_SOUNDS.md).
+
+Проверки: `./tools/Build.ps1 -Task Test` — 81 тест;
+`./build/tools-venv/Scripts/python.exe -B tests/verify_sounds.py` — реальный DAT,
+независимое чтение через wave, два одинаковых экспорта, контекст всех текстов,
+хеши EXE и неизменность входов. SND-01 завершена как подготовка данных.
+Игровое поведение ещё не проверено: исследование при переносе — RES-07,
+реализация — SND-02/SND-03, сравнение CMP-14 — CHECK-01/CHECK-02.
