@@ -1,7 +1,7 @@
 ﻿# Единый вход ENV-02. Все результаты остаются в build/ или dist/.
 [CmdletBinding()]
 param(
-    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations')]
+    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations', 'AuxGraphics')]
     [string]$Task = 'Test',
     [string]$Source,
     [string]$Output,
@@ -22,6 +22,7 @@ if (-not $Output) {
     elseif ($Task -eq 'Levels') { $Output = Join-Path $repo 'build/research/smuta-levels' }
     elseif ($Task -eq 'Graphics') { $Output = Join-Path $repo 'build/decoded/smuta-graphics' }
     elseif ($Task -eq 'Animations') { $Output = Join-Path $repo 'build/decoded/smuta-animations' }
+    elseif ($Task -eq 'AuxGraphics') { $Output = Join-Path $repo 'build/decoded/smuta-auxgraphics' }
     else { $Output = Join-Path $repo 'build/extracted/smuta' }
 }
 $venv = Join-Path $repo 'build/tools-venv'
@@ -80,6 +81,9 @@ try {
     }
     if ($Task -eq 'Animations') {
         Invoke-Python -PythonArguments @('-m', 'smuta_build', 'animations', '--source', $Source, '--output', $Output)
+    }
+    if ($Task -eq 'AuxGraphics') {
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'auxgraphics', '--source', $Source, '--output', $Output)
     }
     if ($Task -eq 'Validate') {
         if (-not $IR) { $IR = Join-Path $repo 'build/ir/smuta/ir.json' }

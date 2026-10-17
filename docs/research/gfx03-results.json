@@ -1,0 +1,100 @@
+{
+  "counts": {
+    "bmp": 1,
+    "fl12-spr18": 98,
+    "font-bitmap": 2,
+    "hud-parameters": 1,
+    "level-text": 42,
+    "light-tables": 1,
+    "palette-rgb6": 2,
+    "riff-wave": 156,
+    "spr18": 157
+  },
+  "glyphs_roundtrip": 512,
+  "rgb555_values_verified": 8192,
+  "exe_evidence_ranges": 20,
+  "files_identical": true,
+  "source_hashes_unchanged": true,
+  "uzdoom_file_version": "5.0.3",
+  "external_screens": [
+    {
+      "relative_path": "Z0.SPR",
+      "length": 65078,
+      "sha256": "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z1.SPR",
+      "length": 65078,
+      "sha256": "afb77435a6a92523fffee0dd9c3bd940d9125bb4ee693721b111e1d7aec250de",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z2.SPR",
+      "length": 65078,
+      "sha256": "7536c1fc6f427a348e6a5e3bbd581c7ce613b310627d4fc2a97623006c5832a3",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z3.SPR",
+      "length": 65078,
+      "sha256": "0b5d8add6888ceb4e69f5bfeddeb2cb1bfdc5a7701d1b4efa8e19a52690f8872",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z4.SPR",
+      "length": 65078,
+      "sha256": "7f8a5e59b36fe595f46f3ed6eaff437d31b47bae8d7b9904278deab802896984",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z5.SPR",
+      "length": 65078,
+      "sha256": "7bc8829224f3017f1fea2260ca066d9912dcff6cb1483c3263dc916791313359",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z6.SPR",
+      "length": 65078,
+      "sha256": "636c3abd9241f97a1743350679a159e7435d9a010bcecd46cf907a4244b087bb",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z7.SPR",
+      "length": 65078,
+      "sha256": "af542ccdec84e03661846612750178cff6fcdf4a7aeb59a21d354eeef83ec676",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z8.SPR",
+      "length": 65078,
+      "sha256": "9b9bce02e70865355a841b568cd7a422efabc0ff3457d27836e9eefea6aabbbe",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z9.SPR",
+      "length": 65078,
+      "sha256": "f89efcfcc3394bd2f149eefdef49271114a2606f4356ee84f7bf0cd14ba3c8a2",
+      "role": "loading-screen"
+    },
+    {
+      "relative_path": "Z10.SPR",
+      "length": 65078,
+      "sha256": "61af0a99ab82866c3276a28215fe027367b6bb5717844ff09878459f4cdd8642",
+      "role": "loading-screen"
+    }
+  ],
+  "catalog_sha256": "ae8c3c3177acb8d29696be15b16669a017bcae1a279f4de5523663024b3f3c4e",
+  "manifest_sha256": "2ac7e94174aec118a360c9b895f0fd89ef2062e6a7d29c543d9cf57ca3b85cfb",
+  "reference_comparison": "not-performed",
+  "release_ready": false,
+  "inputs_sha256": {
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.DAT": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.EXE": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+    "uzdoom\\uzdoom.exe": "e6df57d1027cee089d33388ab743817a236148992ac3881d9141ea2b547677d9",
+    "uzdoom\\uzdoom.pk3": "b8f1993f71c7d027e66ebbdfe06ff41d59c65fe09a5d6e87e7163c3a385f1a16"
+  },
+  "local_report": "build/gfx-03 verification aa09913ae4bf45018292bd2965269ecd/report.json",
+  "autonomous_tests_passed": 71,
+  "independent_inspect_smuta_catalog_matches": true
+}

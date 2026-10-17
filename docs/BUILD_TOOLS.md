@@ -28,6 +28,11 @@ PowerShell 5.1 остаётся единым входом Windows и языко�
 
 ## Команды
 
+GFX-03 добавила `./tools/Build.ps1 -Task AuxGraphics` и приёмку
+`./build/tools-venv/Scripts/python.exe -B ./tests/verify_auxgraphics.py`.
+Модуль `auxgraphics` экспортирует FONT8/FONT16, карту символов, три области
+LIGHT1 и полный каталог форматов. [Правила, формат и границы проверки](SMUTA_AUX_GRAPHICS.md).
+
 GFX-02 добавила `./tools/Build.ps1 -Task Animations -Output ./build/decoded/smuta-animations-gfx02`
 и `./build/tools-venv/Scripts/python.exe -B ./tests/verify_animations.py`.
 Отдельный модуль `animations` сохраняет таблицы FL, направления и встроенные SPR;

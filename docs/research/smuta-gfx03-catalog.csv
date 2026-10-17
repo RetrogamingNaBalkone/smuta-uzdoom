@@ -1,0 +1,461 @@
+index,name,offset,length,sha256,kind,resolved_index,usage,evidence
+0,DEMO1,13802,22152,0a38e01fd76267333d6dab9e4e662d0b7d2677ab92c4960a29fdc084dc9b17a4,level-text,0,consumer-context-required,TXT-01: последовательная грамматика и сетки
+1,DEMO2,35954,22224,5bef7314e4339e8c21e1e933fe956d774d11f6875b8d8bc6d9a8b375904dd2d3,level-text,1,consumer-context-required,TXT-01: последовательная грамматика и сетки
+2,DEMO3,58178,22478,817cda70eddc1b124a450c51e261554817927dc715bba111000cfcd6e0f03c69,level-text,2,consumer-context-required,TXT-01: последовательная грамматика и сетки
+3,DEMO4,80656,22428,eb0d5cdfd4c7f6b45ba5970384e7224d9146df02e446c0ed3c379967d9dcf8b6,level-text,3,consumer-context-required,TXT-01: последовательная грамматика и сетки
+4,DEMO5,103084,23460,36abe2cfb22c96628275416cabc121b92bdeae542db5c46b7bd028cbd2da7072,level-text,4,consumer-context-required,TXT-01: последовательная грамматика и сетки
+5,DEMO6,126544,24080,1a1786cfbf3c26cd1887f83d1d93d1156ba83924dd913978abd0a4fea3c22c19,level-text,5,consumer-context-required,TXT-01: последовательная грамматика и сетки
+6,DEMO7,150624,24041,48b532558c436056be26d7f2fc9cbc16b1ee8ed3c6f3dbc5a3324fd4b5b73676,level-text,6,consumer-context-required,TXT-01: последовательная грамматика и сетки
+7,DEMO8,174665,24578,dbd78fd881725ef2d7951a10cc5dfde9c9e01ed2be7b3805ca32ba0e01a49553,level-text,7,consumer-context-required,TXT-01: последовательная грамматика и сетки
+8,DEMO9,199243,22351,17c93ae52f69200d8d035a6a604ec111f18743605a1df964c8a94a825f6159eb,level-text,8,consumer-context-required,TXT-01: последовательная грамматика и сетки
+9,DEMO10,221594,24199,3551500efff9d28019317e3e3da27b70fef82ecf871c896f2280d787017018d9,level-text,9,consumer-context-required,TXT-01: последовательная грамматика и сетки
+10,LEVEL1-1,245793,22152,0a38e01fd76267333d6dab9e4e662d0b7d2677ab92c4960a29fdc084dc9b17a4,level-text,10,consumer-context-required,TXT-01: последовательная грамматика и сетки
+11,L01S01.FL,267945,8260,7032acdc08ef48d88d179baf8c40889823a41c7e0dd66d5da011acdceccf21be,fl12-spr18,11,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+12,L01S02.FL,276205,8260,662e73d735f92a11fa8aba430523c6d90db3542495dc59c44869e2c67fcf2d92,fl12-spr18,12,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+13,L01S03.FL,284465,12384,4719ce9ae890b071d7ef07d9888dc5a19206d6ccaf8d2ce741203590b0aa7ee9,fl12-spr18,13,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+14,L01S04.FL,296849,8260,d2ee30165397f2e8cb895012a82147ce5a0618f9f68efdcada6349e7a85da68d,fl12-spr18,14,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+15,L01SV01.SPR,305109,4114,a57fd148bca8d3b24ea2a78dda863fa66c647052f25b2002c52ebaa502e80fde,spr18,15,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+16,L01TV01.SPR,309223,4114,2bcb7a33fbdc0337dce00304e55c666f26f0f563d05a5a3ed35877bf4452bf82,spr18,16,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+17,L01SN01.SPR,313337,4114,667d73922ed7dd7d82a5884f931f94436c3bb26e6cfa13871996bd36261d576b,spr18,17,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+18,L01TN01.SPR,317451,4114,83ec305e4a2bbf64cccaf2aa67a7d3da6174fb2b4b65dc732a15e613e2084d89,spr18,18,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+19,L01SS04.SPR,321565,4114,329659007bb8c5d4d505a004bb672fcb2100cec52bc33cfb40a087fe8dd0a4ee,spr18,19,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+20,L02S01.FL,325679,8260,f71aa3331e91175eb05c94581f490242eba9d0eb2289d31db359088a43ce9faf,fl12-spr18,20,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+21,L02S02.FL,333939,8260,94e482032e230fce5797034c041b29740931838508c17ec8240aa9c1df06434f,fl12-spr18,21,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+22,L02S03.FL,342199,8260,5c44719d779b5485ecea6450c2a2dfc3205cb3bde17c92334cd5104a69225c58,fl12-spr18,22,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+23,L02SV01.SPR,350459,4114,780562ec1ccaede35c146d7d246aa867bd95ebea94dcb8c5fcea3c0b712ef60a,spr18,23,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+24,L02TV01.SPR,354573,4114,344b7a259bb4b0899f12b2d1342f14fbfb9949eb4924b8dda9283ae4083945cb,spr18,24,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+25,L02SN01.SPR,358687,4114,057eafd5911aff4f6d220cd16e6a0b05b129c497b1c5fde6b2a704e5ab3c5131,spr18,25,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+26,L02TN01.SPR,362801,4114,f8314fb6fa94a717eef242ad897c1f6e399562e83d88a340ca96608534ef38f5,spr18,26,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+27,L02SN02.SPR,366915,4114,433fb94dc10fe14a7c35bb350f9520b61b12d8c93a1f085ffe475be7f1939e7b,spr18,27,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+28,L02TN02.SPR,371029,4114,20c50e09458876828a886918a7b1c3832153172defb2c74f24564131da1ba1d7,spr18,28,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+29,L03S01.FL,375143,8260,20ea218aa5a4174d2420b7a8c18eb20bcdf2921431eb96d6e5f2463a0b1dc119,fl12-spr18,29,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+30,L03S02.FL,383403,8260,488b8c04e676e75d68e9a47646fbb3816f02fc5611603ae6e05dbc280bcc08f6,fl12-spr18,30,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+31,L03S03.FL,391663,8260,c668b25cea10a17060981e20a9bc64075de5d3841cb67a093e4722539404db20,fl12-spr18,31,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+32,L03SV01.SPR,399923,4114,f31a9b3928421c9ddfaef3a061e60a838280b21e997f7ba9dd42a3d6dd87819f,spr18,32,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+33,L03TV01.SPR,404037,4114,3bc182683206c7ca53fa3e361ab8e30e73ce818c62dfd3490235857c0fcb9d23,spr18,33,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+34,L03SN01.SPR,408151,4114,9ba67a3c47c986ef9dd35615b0ab39b42403d3c25917f39ba38f7afc6a7e6d58,spr18,34,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+35,L03TN01.SPR,412265,4114,c24d2da9f8090a59ebcbf807cf227fd16f5b09e1d6454f9846c3eb9e1ce6a0cf,spr18,35,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+36,L03SN02.SPR,416379,4114,f31a9b3928421c9ddfaef3a061e60a838280b21e997f7ba9dd42a3d6dd87819f,spr18,36,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+37,L03TN02.SPR,420493,4114,f31a9b3928421c9ddfaef3a061e60a838280b21e997f7ba9dd42a3d6dd87819f,spr18,37,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+38,L03DG.SPR,424607,8210,c1f5ed2db7394fd502b6c689ea5edb6777bffb1080185846317d5622ca77fb6b,spr18,38,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+39,L03DP.SPR,432817,8210,b35df61fc25540450a8c9e18f1d3e50511bd97d087af2ef1e50c1979db987e1a,spr18,39,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+40,L03DZ.SPR,441027,8210,81370a4d499a44bbd2d4907b6eca83b8ebd3a43b841fcbd1c3b2e240f69a5c07,spr18,40,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+41,L03DS.SPR,449237,8210,f46f326a41816dab6467436440122b975e89d1ead3239eea5fb5945b39b6dfeb,spr18,41,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+42,L03TDT.SPR,457447,8210,4461ab69ac3e9906094eace3145da8c00c06fb643f1686b4ddd6cf4327ff48bc,spr18,42,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+43,L03SDT.SPR,465657,8210,d7cd6eedd057847f19a4ecfe71bd2a224b8e237453f8fc49f82ffa9d9f6af6a5,spr18,43,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+44,L04S01.FL,473867,8260,6268c2bf96d4bd0e43b7f4f224bd005d727dd07e82caa829630a86c92bf098a7,fl12-spr18,44,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+45,L04S02.FL,482127,8260,53b827d1b21e6bd039d08ba0ecb73b19785d97fe0907a88ee4cf98702239563e,fl12-spr18,45,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+46,L04S03.FL,490387,8260,ed95d16472e638bf8a288ade80a24abb999fc77c47c45b14fa6f0a3b4c5e69ba,fl12-spr18,46,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+47,L04SV01.SPR,498647,4114,de070e9cc2727d50cda5cce486bddfb3beb680c1232e30ef874f2c42e245e2db,spr18,47,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+48,L04TV01.SPR,502761,4114,6bf803d4641de4bbbed6e07451bafead42d66981df6e9320cb9ecbd12772f656,spr18,48,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+49,L04SN01.SPR,506875,4114,8d3faf9763b4ad56ba53b395d53756f2c86d0654c0bc36ab6e98e6fdc6575e63,spr18,49,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+50,L04TN01.SPR,510989,4114,dc5e1f18b8abb7ad0f5ea4590f62a78faaa67ed36a44d0dedf07b627f8015388,spr18,50,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+51,L04SN02.SPR,515103,4114,c7a466e62b56fb9b7d7c5d922aa2ee4a15e5e4fb13c5dd9b74891aeb56ff35c0,spr18,51,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+52,L04TN02.SPR,519217,4114,c7a466e62b56fb9b7d7c5d922aa2ee4a15e5e4fb13c5dd9b74891aeb56ff35c0,spr18,52,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+53,L05S01.FL,523331,8260,fdc8e91c1c4ac9595f7750c3f4c2b0774ccd413863b851114bbbba8ca2ba7326,fl12-spr18,53,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+54,L05S02.FL,531591,8260,e3752592ebff3bdc14fefc6235702540356873be518a075d98858acf0989f828,fl12-spr18,54,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+55,L05S03.FL,539851,8260,785646e39f367fc9515325c7686031502064f8a7258fb56df6b730bb2366dc0d,fl12-spr18,55,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+56,L05SV01.SPR,548111,4114,1f30dfe38f4e3c067121ed8adbf0a860e8d6a60a9aad72af879841995d7598e3,spr18,56,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+57,L05TV01.SPR,552225,4114,ac03cc8e562397b677e37f7487dc94393496c285bccbc1f4550ba4d2777d863c,spr18,57,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+58,L05SV02.SPR,556339,4114,fc25c5dff72a8ef99819b22e10a6998b9ef684d07eff19e5725ee7b642ce0975,spr18,58,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+59,L05SN01.SPR,560453,4114,556c6aa4545fda36e124be73a8ab65a48115b50e72db987d7f6dd9150c24677a,spr18,59,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+60,L05TN01.SPR,564567,4114,732221e740e63720e44f5e380808d0b21fd3ed2db488821a51f687452532d4c4,spr18,60,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+61,L05TRU.FL,568681,24756,6706dd312bd5269d78ca9ab9b3d93cf5a7f026e38023bc49a76f4ff5dfe2d393,fl12-spr18,61,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+62,L05TRUB.FL,593437,8260,d9229a9943030a739e0b6d42be8becbed0a396e524663f16ae6e4d8cb6f8bc5a,fl12-spr18,62,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+63,L05SR01.SPR,601697,4114,a23e5ce3f3bc1bba888389162b4fee88da4ed9458b0c97f631d8200d81776b72,spr18,63,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+64,L05SR02.SPR,605811,8210,77f83b2ffd65ed9c7c905971f78749a46d69fbac63bcee9e008cc8f118e24851,spr18,64,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+65,ВОДА5-1,614021,4114,5d7b5ce8ebbd713fc9bfa1e858be4331612fe2581275a8e557e776aa169a9c59,spr18,65,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+66,ВОДА5-2,618135,4114,5d7b5ce8ebbd713fc9bfa1e858be4331612fe2581275a8e557e776aa169a9c59,spr18,66,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+67,ВОДА5-3,622249,4114,5d7b5ce8ebbd713fc9bfa1e858be4331612fe2581275a8e557e776aa169a9c59,spr18,67,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+68,ВОДА5-4,626363,4114,5d7b5ce8ebbd713fc9bfa1e858be4331612fe2581275a8e557e776aa169a9c59,spr18,68,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+69,L05WODA.FL,630477,8260,b978297ad6afa796ccadd06b21a504c1cd92461da6c18ca56badefe84c639ea8,fl12-spr18,69,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+70,L05STR.FL,638737,8260,2d42cc116b9eaba6a7ad8f3d3050ec3fcb83bc918d93a9267df8808618790131,fl12-spr18,70,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+71,L05VTR01.SPR,646997,4114,d64e0766e76e05200c662ede4d5494caeadf96c3826cd371d3ae2ec5564372af,spr18,71,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+72,L05VTR02.SPR,651111,4114,4c3df42c183f40e511279c518ffc7024b18ff6ad6074bdac49bfd612d3185503,spr18,72,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+73,L07S01.FL,655225,8260,3d345979f52fe2fce2adb48b6935ef67259993d24d1d2a51ca64139f30b4cd7a,fl12-spr18,73,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+74,L07S1-6.FL,663485,8260,4829a988187d679751e967e2799e5ad4f29b4d27e8855a14fc1dd8afde666526,fl12-spr18,74,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+75,L07S6-1.FL,671745,8260,30bf2890dd2130d2bca8149cdd0fdd04ee4a7b8ba1ff9048142d2152f1ec029b,fl12-spr18,75,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+76,L07S06.FL,680005,8260,47a1213ccf198f161d557427894e5fe11f4cd9f7356bc528056feb2cfcee72f7,fl12-spr18,76,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+77,L07S05.FL,688265,8260,ed95d16472e638bf8a288ade80a24abb999fc77c47c45b14fa6f0a3b4c5e69ba,fl12-spr18,77,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+78,L07SB.FL,696525,8260,bc56ca0cc48e77a1557d838c2ff8dc81c337751702bee6e1bacca06c3d80ec0e,fl12-spr18,78,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+79,L07VB01.SPR,704785,4114,4ac09d5f4f6f889852d2999c70f348ed49f18d2d68beb008ebce787ff908702c,spr18,79,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+80,L07R04.SPR,708899,4114,93bf73c6585e516dabe44cd70e6833e65bbf2095e7e1d197ae906a3c54534cde,spr18,80,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+81,L07RD.FL,713013,12384,f63dc561b87e558cbc94d18e344320f6f591c0e4206a354ae625b11f58ee2b76,fl12-spr18,81,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+82,L07TN01.SPR,725397,4114,fa9dd010940d267ebfa018394839213105fe688026e735dd721293fa8f05cc86,spr18,82,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+83,L07TN03.SPR,729511,4114,05d83c4dee11bb99477376d53807cf7dbd259b770ada688188e78ac7df3e590f,spr18,83,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+84,L07TN04.SPR,733625,4114,842b953dc6656045b9dda6a55d6ccebded439b10b010a5b6e447cf7baaad6477,spr18,84,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+85,L07TV02.SPR,737739,4114,8afda7466bb905d0e4478951eb26b85c1b5fc21b7b375ab29cc9fb92468eabbb,spr18,85,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+86,L08S01.FL,741853,8260,c986dd443721f4923e4eefdb16fb865bc3479ddebc40afe9baafb7ec4272b9d3,fl12-spr18,86,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+87,L08S02.FL,750113,8260,aa72097ecc908f911e2bf306681cf3bd3467f396e91e8b2ce6b9986c6c616b9a,fl12-spr18,87,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+88,L08TN01.SPR,758373,4114,3bc182683206c7ca53fa3e361ab8e30e73ce818c62dfd3490235857c0fcb9d23,spr18,88,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+89,L08SN01.SPR,762487,4114,f31a9b3928421c9ddfaef3a061e60a838280b21e997f7ba9dd42a3d6dd87819f,spr18,89,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+90,L08TN02.SPR,766601,4114,5f0847520f8baba09089f0147095f99e4be07ce9fb0470611939664623b63dfb,spr18,90,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+91,L08SN02.SPR,770715,4114,0718dffc0249348a1869c95909b9024638f505a073a0bdf379bf6c1aaf8fa6fb,spr18,91,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+92,L08TN03.SPR,774829,4114,92dee5d5a1caa729df09a454f2c9b31bac883e31efa4aaf7b0fca5aef3f3f085,spr18,92,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+93,L08TV01.SPR,778943,4114,3f6c78d839267f149b8a6dc7397b8032bcb2485e9deef86d8732a8bf8f839908,spr18,93,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+94,L09S01.FL,783057,8260,0e5a0679268266f776c692d02d8bc28b96a59a3d9ed02c215aadf896ed1e9265,fl12-spr18,94,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+95,L09S02.FL,791317,8260,1ffa0b7a1a87521f527dc94deef6c794326b4daec0cd5ffb25aa2114b793d463,fl12-spr18,95,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+96,L09S03.FL,799577,8260,f6ebadaa7f0202c49eec6bedeee6fa7783f3df41ad26d562b3423a5041139e0e,fl12-spr18,96,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+97,L09S04.FL,807837,8260,0af23002b50a25cb63e59a45d34a94ff90d3ffa961be3b32d8d67d3c7d166898,fl12-spr18,97,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+98,L09S05.FL,816097,8260,85ae4dd82a9639a5553efbaadc8b2f1250e1fe8c66ccdc3d895f5b81ecf75e0b,fl12-spr18,98,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+99,L09S06.FL,824357,8324,c5010dddcef01fc1819691e462764536df250eb5e983b2626518050cd378d750,fl12-spr18,99,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+100,L09SN01.SPR,832681,4114,bb0de95d8ed8e3d5bafe9be1626317124346578d4fbc00fd66eeb405618c77cd,spr18,100,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+101,L09TN01.SPR,836795,4114,050ffcdb64333914a0afa9d7c24799b62446f1f1c3756657bf266895dce6048b,spr18,101,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+102,L09SN02.SPR,840909,4114,6397d1b84868147a10773698595334013a70b0030afa44778ce579899bdd4e80,spr18,102,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+103,L09SN03.SPR,845023,4178,bb1fed3d37e0b0adfaccd9dbd4a63fa95bc41257b7abde45e767e116d69c844f,spr18,103,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+104,L09SV01.SPR,849201,4114,375b05c3d4d27321c343a122be831de5f8199b8eed2f050fa4643469b9620362,spr18,104,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+105,L09SV02.SPR,853315,4114,7b945f481f783698d2b71bd8fcfe8767fafd0fd24066612c82ff3cd8cdb6703b,spr18,105,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+106,L09TV01.SPR,857429,4114,a924687c06f205abed2a7986c426346c9ca7ed0cb5a0bb95587d2198e09141db,spr18,106,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+107,L09TV02.SPR,861543,4114,adf4c2d93ce6ee78af906ae84f952b4d0db5b16d91a8e8c274b469fcd49a5248,spr18,107,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+108,L09TS04.SPR,865657,4114,1b5e4284bf517276e4bf62a8427945b7d956d7c0b05315432d976ba639ff05a0,spr18,108,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+109,L09DS01.SPR,869771,8210,532a6b3bd859d24dd6a4480391f499e9892edbb2b31e3a339a3295687d3b66bc,spr18,109,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+110,L10BV01.FL,877981,8260,63c5b6b9fb17d8512f72b34c93b30012385146e406ee2fd0102bf11a15b8b049,fl12-spr18,110,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+111,L10BH01.FL,886241,8260,0e0eca7f402b8260cc7d9445eb6398eadd9e20950286c83af8d9e7815259fe8d,fl12-spr18,111,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+112,L10N01.FL,894501,8260,3709bf12baa81c89860d044c0725ccfc33e544a0fa407be0a0df36baed057978,fl12-spr18,112,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+113,L10NT01.SPR,902761,4114,f11785bb470e7c4ae57fd7d6ad87b105a161b51d85f1dcdbf7fee37f69e13d9b,spr18,113,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+114,L10NS01.SPR,906875,4114,bb0de95d8ed8e3d5bafe9be1626317124346578d4fbc00fd66eeb405618c77cd,spr18,114,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+115,L10SS02.SPR,910989,8210,3cd168e34ab507970d33b34557e3d3dd84a91b0cd7b412d71bfc52ba6ec7bbc4,spr18,115,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+116,L10BTH01.SPR,919199,4114,47edc4b6b6689cba18ded3ab08e8323f71e7e72878285b2c7aa4b90d1c0418bb,spr18,116,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+117,L10BTV01.SPR,923313,4114,4e5efa7b197a8d1e6a6fd04c30236006572a97d1488b7facba1a107ee7e65129,spr18,117,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+118,traba02.spr,927427,4114,c1f311e8cabd1fcbe2b02a321e3fa6f3e1b304ba78eb5ef2d93e7ede4bfc3099,spr18,118,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+119,traba01.spr,931541,4114,a9f6a88e0ca16c89f72b531929482da11f582392c4e1c81dbf0f59e4a7adbc82,spr18,119,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+120,resh01.spr,935655,4114,fdcac67535c26e39d7af0bb52a39a99ce5c66b6c665cd17dcdea8985f4e5b90b,spr18,120,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+121,nebo03.spr,939769,4114,93864a6c9446ba1c5c3874a72d4b8e4dc91de18069f5ad12c8791cfa3ed8768a,spr18,121,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+122,nebo02.spr,943883,4114,24550e881a917bddb81b7428b6ed850e404c66127fe6bf01d9dc01dc5370ee65,spr18,122,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+123,nebo01.spr,947997,4114,440585ab4237c781a7c9ce7141c1f0d008076db66a09c6c60815b0dd36a364dc,spr18,123,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+124,luk01.spr,952111,4114,5f40080b91e3a06105189ab83b4b2e86786074e9a59f30bb7d18b69ac352c4f7,spr18,124,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+125,kust02.spr,956225,1816,82757412b7e57d9a740ab350652d95ca5c5c09a876192e599c1bc515685c85fd,spr18,125,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+126,kust01.spr,958041,2454,cccd96e2f28c333a5739a92468800475488781d474f25efb4aabcd9e426a8c74,spr18,126,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+127,derevo02.spr,960495,11798,9f797cc158c039bddb8bcba711d87bd42238d40191ca89a27265b91afb54cd0b,spr18,127,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+128,derevo01.spr,972293,18562,22e0ce19b9fd257cc726d510ef8429d10b36a153704dc4f18f0b2492303bd1b1,spr18,128,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+129,putn02.spr,990855,4114,b4695b35f81cdf79657364fede54bc65d91d918823a65cdb57ba25e9c7a7d586,spr18,129,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+130,putn01.spr,994969,4114,3bc182683206c7ca53fa3e361ab8e30e73ce818c62dfd3490235857c0fcb9d23,spr18,130,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+131,domsb02.fl,999083,8260,88f28f6d55da99b16e5af629071d383dbc2b7f806c65701976a0d38a42d902a8,fl12-spr18,131,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+132,domsa02.fl,1007343,8260,fffe6368ddbaf3c3264d6bf041b6b263834d59832395abf53a4dd5d2f642e913,fl12-spr18,132,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+133,domsb01.fl,1015603,8260,926686c5f7b31af7edca775e4fad0f2d938ebe5da31de8c1b4ab58ac8ea4cb00,fl12-spr18,133,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+134,domob01.fl,1023863,8260,e39d34753248450cdd19d5b785fc48c42db48122cffb06931b3553ebc0b7b5c1,fl12-spr18,134,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+135,domsa01.fl,1032123,8260,5cd7b066bb5b7453ba19fc818210e148c3380bd8f7e51c35fddb695d92fe63b3,fl12-spr18,135,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+136,domkb02.fl,1040383,8260,8153ffd96bd3995c7f07c093f002a14c21dfaf332a94e9006f0b9396373ae8a4,fl12-spr18,136,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+137,domoa01.fl,1048643,8260,4e974b080c71cee46f550a9c8e1dd79fc089ea83f1fc0665b64e8175c235ded9,fl12-spr18,137,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+138,domkb01.fl,1056903,8260,2f2cd0ae739f1f2e6578b9309f54d3bd36ec42ff24fa4b6e7850e83c01a98b7b,fl12-spr18,138,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+139,domka02.fl,1065163,8260,3dd1b453c03c96385e482b9ff2f601621c8bcad5c9c40b7e1a06eee467d574c3,fl12-spr18,139,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+140,domka01.fl,1073423,8260,61efca7d340f6d5675f5852300acf8659016ef01c7c69eba0bdf05a96a1dc9a6,fl12-spr18,140,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+141,bords01.fl,1081683,8260,07f40c6bef077e99d20202c1997f56726ad0495f0e71e99adb8c61de86004306,fl12-spr18,141,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+142,bordn08.spr,1089943,4114,d8a372502853d87efe8b16ee5b706be9bb39bdf3fcce10a93b160fc35b5546a1,spr18,142,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+143,bordn07.spr,1094057,4114,88d0c7be18b308ea05d37ee0de185a4d14eef12cc020aa8ac06108bf663374f0,spr18,143,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+144,bordn06.spr,1098171,4114,32228dac0ef429d17ade973fdd48c4b72e4ba724b0a8e5629efc4b9095ec3aa5,spr18,144,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+145,bordn05.spr,1102285,4114,2fa7f52725376de1197ebeee88392f1fb1c83545a6ae920e3321e010ab410f03,spr18,145,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+146,bordn04.spr,1106399,4114,c0e46c0573583655b41399a44086db609948b6242411993692dcfe2026f27ca5,spr18,146,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+147,bordn03.spr,1110513,4114,b417365ce6723134cef0aa21c2cbe117d2a7945d4d3cc3e2b45e8d053da2108d,spr18,147,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+148,bordn02.spr,1114627,4114,c8882ee460160dff8198439f2d019849fdd47a7f0ef44a78ac6612f0473ec7e3,spr18,148,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+149,bordn01.spr,1118741,4114,0314766ebaa44873033394f9cb861a968a93c40df32b9868da6f902d1af94905,spr18,149,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+150,L10S6-1.FL,1122855,8260,9cdbe12870becbc0e349c39e1319aabc9dff50de5868c6278104a7454915f398,fl12-spr18,150,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+151,LEVEL1-2,1131115,22144,a614de898910e2af4aa1e53f9c2fcd707b8dd0bbd10c7317bcee8eb3eeb944e8,level-text,151,consumer-context-required,TXT-01: последовательная грамматика и сетки
+152,LEVEL1-3,1153259,22144,e8b5e68a9557f232688ba2621b715f74a97d4245dbe918a99c514052b758863f,level-text,152,consumer-context-required,TXT-01: последовательная грамматика и сетки
+153,LEVEL2-1,1175403,22224,5fd33403a7d7de2fd82078aaaef8a84bbed7f3bf1551fc4d03b7fe8d28a163f1,level-text,153,consumer-context-required,TXT-01: последовательная грамматика и сетки
+154,LEVEL2-2,1197627,22204,054cdc9d76dbe3dae93f90ea89e6ba600d90444752a8a24bca6d566e8a02b00e,level-text,154,consumer-context-required,TXT-01: последовательная грамматика и сетки
+155,LEVEL2-3,1219831,22204,cf124096227834d698ee4c3dd5682a216fc41821577237d48561807a91254ef7,level-text,155,consumer-context-required,TXT-01: последовательная грамматика и сетки
+156,LEVEL3-1,1242035,22478,7198f1c9ca52479188cd4c04506270916250f7406a9fc1cc195fc4ac00742ddc,level-text,156,consumer-context-required,TXT-01: последовательная грамматика и сетки
+157,LEVEL3-2,1264513,22471,7f7e4c440b4deed92454eb772301fb183799dafebb90ad3b0a0444776031cc72,level-text,157,consumer-context-required,TXT-01: последовательная грамматика и сетки
+158,LEVEL3-3,1286984,22471,fcf3182b2ba9242a84c0fd7cef5829b34da393fb4b7e7e0348d05ba5a20ce15a,level-text,158,consumer-context-required,TXT-01: последовательная грамматика и сетки
+159,LEVEL4-1,1309455,22428,e4d040aeaec616230a6672432c59a98272d713341b0d7033f419abd40f2d7ffa,level-text,159,consumer-context-required,TXT-01: последовательная грамматика и сетки
+160,LEVEL4-2,1331883,22422,8e1033038e376b6497d045739fae922964fac03b9091e0f71ee10e85497b8c18,level-text,160,consumer-context-required,TXT-01: последовательная грамматика и сетки
+161,LEVEL4-3,1354305,22422,7f304396fd61bd2e7e911911dd4405b2d904c7e4bea0b6d2b30c55e00d1003ae,level-text,161,consumer-context-required,TXT-01: последовательная грамматика и сетки
+162,LEVEL5-1,1376727,23460,21288934288623a3db68d8c93b78d5691735f2ee9065164994affb0f7745c6e9,level-text,162,consumer-context-required,TXT-01: последовательная грамматика и сетки
+163,LEVEL5-2,1400187,23433,2d37734bed0197500749402d8cba8563516f3602fd03da5e88301ea4f3ad3fc7,level-text,163,consumer-context-required,TXT-01: последовательная грамматика и сетки
+164,LEVEL5-3,1423620,23433,6508c10fa0665f73abc2f7ac13c9b3106eee3382be616ceae941f19b48b132e9,level-text,164,consumer-context-required,TXT-01: последовательная грамматика и сетки
+165,LEVEL6-1,1447053,24080,1a1786cfbf3c26cd1887f83d1d93d1156ba83924dd913978abd0a4fea3c22c19,level-text,165,consumer-context-required,TXT-01: последовательная грамматика и сетки
+166,LEVEL6-2,1471133,24062,ce301c6600d35be101508316ae782f5663755ea4467f37e5f9e55583d0c670ce,level-text,166,consumer-context-required,TXT-01: последовательная грамматика и сетки
+167,LEVEL6-3,1495195,24062,e5f5c413ea01b997f2f2551b252b599ff9fb81df2de37db8910cd08a158402bc,level-text,167,consumer-context-required,TXT-01: последовательная грамматика и сетки
+168,LEVEL7-1,1519257,24041,08ba2885b3f35cbdfca1bfebff2c8fccba11520aaa5d531df30fc256f8c9c84b,level-text,168,consumer-context-required,TXT-01: последовательная грамматика и сетки
+169,LEVEL7-2,1543298,24099,d3831dd3038f9c67ba3aa4174a339f29c5fd0edf15214df54572111a6a40d2cb,level-text,169,consumer-context-required,TXT-01: последовательная грамматика и сетки
+170,LEVEL7-3,1567397,24099,d35fac78a99f9eabfb6c05e41f4228f8679656088afa133e367dcc97341f28f9,level-text,170,consumer-context-required,TXT-01: последовательная грамматика и сетки
+171,LEVEL8-1,1591496,24578,5b646c10c2afbc2285a261fc11c3e13fc790dd348e4f120a3fe54e764c621d56,level-text,171,consumer-context-required,TXT-01: последовательная грамматика и сетки
+172,LEVEL8-2,1616074,24575,437bfe2a495a71829f86089494ed3789d1ba07c3dfdfb60eb5e13aaebc97b1db,level-text,172,consumer-context-required,TXT-01: последовательная грамматика и сетки
+173,LEVEL8-3,1640649,24575,0f93328427d395e58614c12be876366766037fcb2dfe05cf0da72865ad50f72e,level-text,173,consumer-context-required,TXT-01: последовательная грамматика и сетки
+174,LEVEL9-1,1665224,22351,17c93ae52f69200d8d035a6a604ec111f18743605a1df964c8a94a825f6159eb,level-text,174,consumer-context-required,TXT-01: последовательная грамматика и сетки
+175,LEVEL9-2,1687575,22351,27ec77590030c1397d393748dba8886362b487c8d0b6ef4160b5c749c40d2260,level-text,175,consumer-context-required,TXT-01: последовательная грамматика и сетки
+176,LEVEL9-3,1709926,22351,cff5d0e75f15a2e387f1b49d88b5fd92eda029185e200ab3720c7d1c79e56c33,level-text,176,consumer-context-required,TXT-01: последовательная грамматика и сетки
+177,LEVEL10-1,1732277,24199,95b167ca05a6d5edc89c9764c537af1f7f30decbb035c2b71447227aee2b0d9b,level-text,177,consumer-context-required,TXT-01: последовательная грамматика и сетки
+178,LEVEL10-2,1756476,24174,436cbabca7c06a7679924858babd21b7e9a86f883115401a7ecb2ced34dfeba0,level-text,178,consumer-context-required,TXT-01: последовательная грамматика и сетки
+179,LEVEL10-3,1780650,24180,554fb0e259db5e4ca30b39d45dd94414a9ab09fde32151070f3ffa01f4600e5d,level-text,179,consumer-context-required,TXT-01: последовательная грамматика и сетки
+180,DEMO,1804830,24080,1a1786cfbf3c26cd1887f83d1d93d1156ba83924dd913978abd0a4fea3c22c19,level-text,180,consumer-context-required,TXT-01: последовательная грамматика и сетки
+181,TEST,1828910,9310,09d7986147f1c32549236b618487a8b0e98e517a2cd19544b97839c652415fe9,level-text,181,consumer-context-required,TXT-01: последовательная грамматика и сетки
+182,ЗАСТАВКА_СПР,1838220,64018,108bfa0a9b7d2841475f4803563a0a9f415dad0688fa09c412e05725b1b2f7d2,spr18,182,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+183,ЗАСТАВКА_СПР,1902238,308278,a3fc3aec7b6316bb36179e671977f74b5aa812a76838bcb08a077504d23bc70b,bmp,182,shadowed-by-first-match,"GFX-01: DIB40, диапазоны, пиксели"
+184,ЗАСТАВКА_ПАЛ,2210516,768,cabf6d5e9fbe905554758c71354155670888c7a3cc8e2225c812d9d50684259b,palette-rgb6,184,consumer-context-required,GFX-01: 256 RGB6
+185,ЗАСТАВКА_ЗВУК,2211284,69640,afe03195973fdd0133c1ebb78f16117ccbd1cc13e5267a82c1a46298a9c58977,riff-wave,185,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+186,FON,2280924,4114,69630cff9a50373ccf8107bddfeb3d4aaff73a41b75589b02576aed850aac4fd,spr18,186,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+187,FONT8,2285038,2048,b850fc7ed5ce3e9d92e452a8b13e7f874718368fe3423056dd0ce563676f2508,font-bitmap,187,consumer-context-required,"GFX-03: 004264C0, 00426592; 256 глифов"
+188,FONT16,2287086,4096,c409cd790ec2712536c635a4ad4200272d1e0884dff98d44361d3d1774ab812a,font-bitmap,188,consumer-context-required,"GFX-03: 004264C0, 00426592; 256 глифов"
+189,GAMEP1,2291182,768,6e6b3384a041060b1997b98b91bd6992989756f67139be168a8a75008ad7429c,palette-rgb6,189,consumer-context-required,GFX-01: 256 RGB6
+190,LIGHT1,2291950,90112,11ce18076aebb919670d56951955b5bab4c2fc58d9175191fb5cb44b09df055c,light-tables,190,consumer-context-required,GFX-03: 00410EA8–00410F03
+191,ПАНЕЛЬ,2382062,12498,2adc131edf55049de889da438c44b51e33a2ac4a3dd97a52b3e3136379b9cefd,spr18,191,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+192,ПЖИЗНЬ,2394560,577,a9f0bd038480f27e3f0558968be7238336aa8b9c07fbe2d363200c90989fbd65,spr18,192,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+193,ПОРУЖИЕ,2395137,577,9c02221ab27d3fb6858444c8b2a729d213c447216e7533b8e02ce011a4b43e13,spr18,193,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+194,PANEL_DAT,2395714,11,7c5b4623b5e8b0c713c97c502fcb105aecb49bd5437743639fb2ac91efc2268c,hud-parameters,194,consumer-context-required,"GFX-03: 00408162–004081F9; три числа, не изображение"
+195,ПКЛЮЧМ,2395725,798,065cb6e7653e48486e9007e6c24262d16b3e2aff79b930806499437f03655b47,spr18,195,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+196,ПКЛЮЧЗ,2396523,798,e44f28669c07712723d4b8d2a02affb8a07f1057d76f640fa284179cd01e86ba,spr18,196,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+197,flkwtru,2397321,24756,f7be7033bd53cf4b6ee50f5aadc98452ea516ab9c4f741eba09b7e70c7aba710,fl12-spr18,197,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+198,ТРУБА,2422077,4114,aa2b46cdf8000be6a1c0e39abf6b915e157a69604f3d3b1ab9dbc5d31dcbb4d4,spr18,198,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+199,ТРУБА/2,2426191,8260,da50812bcb7f4f2a2c378d4b861b0533d81891ba70d75a1b7cc373bf538f9f1f,fl12-spr18,199,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+200,KSTE01,2434451,37128,f63ee82c7c22df17aecf228bf7457cdf7831b33c951a5335ddbed5e79104593f,fl12-spr18,200,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+201,KSTE,2471579,8260,cca856209aab2083e05b1f17cc64460a7a6e7fca85f6874aa2c48bf8ba8f50d5,fl12-spr18,201,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+202,KSTE2,2479839,8260,8d1a407539f2b426e4d4c7a24074889fcb4c45dc97403e0c053b15023e9d72d3,fl12-spr18,202,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+203,КСТЕНА1,2488099,4114,79d6ffc6e34733a0e0037e8f472514b92026305d8f1282de8c8bbbe7ee83f398,spr18,203,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+204,КСТЕНА2,2492213,4114,a36348eb1d89ea85d8f3fefca1dae4ccaf4a06ac4faae8e5dc4b6438d95a916c,spr18,204,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+205,КСТЕНА3,2496327,4114,3524488d8141b55641bdcbee526200efc07b1806150a602b585e6f67bef97422,spr18,205,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+206,КСТЕНА4,2500441,4114,17aec3867620fbbae7d4aac04d42a514bb94f2c01a4c1251e59cf4efd3538a31,spr18,206,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+207,КПСТЕНА1,2504555,4114,2cae554a2ab5d55b849ae4c93962a1bc5dadcf000d73f5802382d519e3811ba7,spr18,207,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+208,КПСТЕНА2,2508669,4114,c872a1ecd1d1739cfe6b8cdb337d37628660882050be245f9573ee7cd7070200,spr18,208,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+209,КПСТЕНА3,2512783,4114,03caa1520a6ecb24893b5cdac4f08dc9dfdcd34e9ca77f929abd28a477f5282f,spr18,209,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+210,КПСТЕНА4,2516897,4114,866ce8e47eebd13c3feb736a27fac9cefa90fe07d58ab9d1899ec8fb52871d1e,spr18,210,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+211,КПОТОЛОК1,2521011,4114,12c33661377337e597be4b7fa7a423b2fb64a3958313227aa9f7274b32035e33,spr18,211,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+212,КПОТОЛОК2,2525125,4114,776f690173bd56aec0d7397a4721d6746a41c6989e28e681b89c27abd98f8bd7,spr18,212,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+213,КПОТОЛОК3,2529239,4114,747a4f5fb383bbd8f4ccbe66842b98b5521e177e426fe1dd0e36c781004ff6d2,spr18,213,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+214,КПОТОЛОК4,2533353,4114,9696079aa0c72a849e15b349842c09f194de82a581769ca9fac48f390be49fab,spr18,214,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+215,КПОЛ1,2537467,4114,2a212593eca68dce7ecaea96a31e6ce25ab8c58f85b479173ff24f51b3f9619e,spr18,215,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+216,КПОЛ2,2541581,4114,8a1480fd48e9be0a0d32d16060d07d8c732359d7105b573691a85ece7ac40815,spr18,216,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+217,КПОЛ3,2545695,4114,4aa7987dbcfe03eba6b2d311c3c55b5e3e6df5045d4c7ef5b135b2f41f2809cd,spr18,217,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+218,КПОЛ5,2549809,4114,bc292a3fb25fa6570bc0bcc986cba45942c81febff34e3fcd582c4669b688f25,spr18,218,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+219,STПОЛ1,2553923,4114,12c33661377337e597be4b7fa7a423b2fb64a3958313227aa9f7274b32035e33,spr18,219,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+220,ВОДА1,2558037,4114,9641db872b745bb85c3451b40e642544a1ec32ffb7ad3b2e2cef874e55fdd546,spr18,220,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+221,ВОДА2,2562151,4114,9641db872b745bb85c3451b40e642544a1ec32ffb7ad3b2e2cef874e55fdd546,spr18,221,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+222,ВОДА3,2566265,4114,9641db872b745bb85c3451b40e642544a1ec32ffb7ad3b2e2cef874e55fdd546,spr18,222,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+223,ВОДА4,2570379,4114,9641db872b745bb85c3451b40e642544a1ec32ffb7ad3b2e2cef874e55fdd546,spr18,223,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+224,woda1.fl,2574493,8260,ad023872c30cb7276c19c2fb2e15219b39e69d0e7eac3291b32b13d20a4932d6,fl12-spr18,224,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+225,stu,2582753,4114,bf4b52394064bd12c05a9b875eebb8f80f076b107877c5b56a45dd8904c46720,spr18,225,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+226,stuwer,2586867,4114,715901a6be4a22832908be60fe9523844e91ab92ccab0360d2d7d8941658ba51,spr18,226,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+227,stuste,2590981,4114,3d7f1a534c520df34896c3111a66da8e2bdbe1c5460b42a86c6f8ff9a1401a82,spr18,227,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+228,зБОЯР_И,2595095,18172,d6052733d38ba047c1f3707a67afcd70e716e862bb3c65c055aa4261a4d8187c,riff-wave,228,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+229,зБОЯР_А,2613267,7984,c7a4a9a2077a28a403c5bab52ae64bf8954ae10c47f45959e2af4813d4e80b91,riff-wave,229,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+230,зБОЯР_У,2621251,26896,525c6c688fc52c6def6f6b5bec2655a7190bab64d540c3e24ca2919940ba49cd,riff-wave,230,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+231,ЧЕЛЗ_УБИТ,2648147,8270,9790a818401c7785185134b11c680dbfcd966f2949a1e37e02f4d9eb2ef10085,riff-wave,231,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+232,зВЗЯТЬ_ПУЛЮ,2656417,32766,a9b05c9c8c4e1004538ccc58fb2e54531aa78ed979117248a291229ed91030e0,riff-wave,232,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+233,RAZP,2689183,4174,b3cabbf4222bba9e14031b5f500cdcdea0020c47290d61f478082411b17f5ada,riff-wave,233,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+234,PULKA1,2693357,49,a77224e750959f4b59dc136c690a197070464258cbf2ec832129e8654f1ed9a5,fl12-spr18,234,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+235,PULKA2,2693406,42,a4a25151a15bb32f873b430d45a1e65e198a78240b697118588e2f6b7e122cd6,fl12-spr18,235,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+236,ПАТРОНЫ,2693448,438,5319dbf3c253621ed72e8affb7c182ae431d612b59f656126259c90bb1ac3d2c,spr18,236,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+237,ПУЛЯ1С,2693886,118,ea3c6690b2b73e8042f2ad8f28f9fdf886b95a31d447924fea81228d8f87bb1a,spr18,237,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+238,POPAL,2694004,37877,39b3d97ad1b3acde89fbde5c6205a5f0fdd1b61ae9c68a8090d44b6e413cba2e,fl12-spr18,238,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+239,PIONR,2731881,222191,90f857e30fe247a5df73f338231c40f8dcdf08dc238d8df83d561a2d45814309,fl12-spr18,239,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+240,PIONA,2954072,42804,218c7079c7b29b663ff13a452fae8bc9eed8a16528fb58cd7162064e6bd19bf1,fl12-spr18,240,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+241,BOJAR,2996876,479125,addd7d2137921ef4f585be4297414421f23eafc7414ecd67d3127aa5ca6ca956,fl12-spr18,241,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+242,BOJA,3476001,147600,18de34fb501bf3e1fbd6e5af47be4ab2e22aa6ce37a458f11ada38a8e9d78367,fl12-spr18,242,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+243,STRELR,3623601,336114,23a02694feb68416d725de9c4dc4cbebe1260dab678b91aba3c9eb834a5954b7,fl12-spr18,243,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+244,STRELA,3959715,75258,0e8fea6680d463c1776a0a63b8e1e7b4a45233b09ccab97ca67a32761327fabd,fl12-spr18,244,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+245,TOPOR,4034973,27421,1006ee955114787922ba8efa3ef1acb0ba425d30a905b0586a795164ed6f63a8,fl12-spr18,245,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+246,AKM74_1,4062394,32380,03f289ea406adabc5a925fc1be9dd8c1d035be1353fa8b70974c1ad5a9ba52ac,fl12-spr18,246,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+247,AKM74TI,4094774,4242,a4194b09a88bb796a89f0fb319895ff7421652fe681a038532ff25ff8e4223a1,spr18,247,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+248,POLUCI,4099016,8916,10fd8651c7a360d6c47bf6c3d86210565a9edec06f817a684daf253b292e4d14,riff-wave,248,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+249,MASO,4107932,26318,760a93e7627166af4cf87fbe4a3de689d9c336acc79cc76aed286c3117ba3f56,riff-wave,249,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+250,UAAA,4134250,17022,427a4fa4ff53ec89274455fb1a63b4b9d687f4ce7eff851518285edf1192c99c,riff-wave,250,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+251,UBU,4151272,24158,45a11f16dc085b1d7e8c1dc98db63b4c4caadd6e644d129bf17e8c9358b54a82,riff-wave,251,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+252,UMIRAU,4175430,11040,00c12263bb4e38efcd5c6a6f737bd5944b18129f1eab2fda1bdb45176c64ff04,riff-wave,252,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+253,TWOSHOT,4186470,1300,8583a0ca34f53c010c804d945c72ca955c735689e259de705f3a94dc8e95294b,riff-wave,253,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+254,STRELEC,4187770,8943,4807d1ffb5cd9f436475d00544c4e73c9d0fc179838e5a641c544e2ecb6587be,spr18,254,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+255,KREST,4196713,380935,44e1b7243817cea43c73107940b7ed97d32aa7a4ad1474c6f5888eebe1cf8398,fl12-spr18,255,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+256,CHEREP,4577648,51120,6fdc1eb170c601e5065a04db8c303a3e678c793340cdf4d3ec2d73a0287febfd,fl12-spr18,256,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+257,TOPORL,4628768,4792,448ce97b139a952d74dfdb26fe24274bade91e4af2f745cffe8a82cc5c9bc030,spr18,257,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+258,TOPORA,4633560,48419,ae5fa57276e72ca766ff6200b37685d194edbef9db6b7f9110627f5346f7c547,fl12-spr18,258,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+259,SERDCE,4681979,45020,3e3f3ec3c645eea76cd909a91f4bf8a6b5fcd5554a327c70b76d6036ce7688cc,fl12-spr18,259,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+260,BOCHG,4726999,3906,499aec752e671ee29f7b1114b19d78afe16d681823b545e1535f4bd0269ec530,spr18,260,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+261,BOCHD,4730905,5866,2972fb6f5557cdddc92ddc061f713939aef9ca12f6e5069a755fc60d5385fe5f,spr18,261,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+262,BOCHP.FL,4736771,1536,ea48cb8707208c15be1a1c1d67d8508d4f9f205bbe339271cbf0595adb4ce6e7,fl12-spr18,262,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+263,KRUSH,4738307,26982,881e9d28233197e38872382d6113355afc01f487007e7ad3a0c4d0e17939c331,fl12-spr18,263,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+264,MUHOMOR,4765289,8818,2e79ad21cf5745cdb184fce7ad9a5e5f6eb285e5fec0550ae0aedf2dfd1c50bd,spr18,264,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+265,VZATZ,4774107,28896,149ffb2b1c8d69c7eee31649d5838b572a9c5d1cac770da0e32e5d0fe6c9fd19,riff-wave,265,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+266,VZATMU,4803003,13008,22ad8cf75134a69c6e014fcff95a8656fe2428e0e2842c76fb5beb0df51a9169,riff-wave,266,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+267,VZATKEY,4816011,39544,44815fab81f2c53815ab175ddd77173aa47ccf6ef2ca67877aa5164489a3fdd4,riff-wave,267,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+268,KEYZ,4855555,100079,9f2e2e8e8e17eef0125a4016d3f63c6077fb7290bb555d3ae7d5796bc647f820,fl12-spr18,268,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+269,FIRE,4955634,16960,93254769f3b580a24df1eddfc4d87c5e61406c2ee76b8a92fd3b8cec45c71d0a,fl12-spr18,269,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+270,EXPLOS.FL,4972594,129757,b3254d366b5577af5ffdb91ca0bde3c5360060c064a20cb4284a7eea415a6b8d,fl12-spr18,270,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+271,CHERKL,5102351,222474,b0c785b87cf183176f41dfab5de1ae8cc44a59694cf009e845170f4c8c2a2088,fl12-spr18,271,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+272,APTEKA,5324825,53437,fdc6ac13725c61614f1017dd58c94d90b0067849deb4a0f5395129d4643beada,fl12-spr18,272,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+273,POSOH_FL,5378262,32589,8532393d9cf8d67499e4ece02c7bb6ad9bdced11dcc931ad8a9f1370505ed9df,fl12-spr18,273,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+274,POSOH,5410851,4776,f265562c0bc939423db376ccc0578a07ecb2b200bd49c34f7e452839c2b5b459,spr18,274,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+275,MAGIC,5415627,19030,cbec6a2fb96f08ecca48727e66c0578696e0e0d827719683e8266191f922f8ab,fl12-spr18,275,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+276,MAGICA,5434657,3802,c881feeeddd5792b10c76bb4009fb40fb2dcc23c351e6b58662651d0a3d303e6,fl12-spr18,276,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+277,MDESTR,5438459,41097,43b59e1de8dfdab0c728512396a4e3f58d305c8ee26c7f293256ad53b14ffbea,fl12-spr18,277,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+278,WDESTR,5479556,5035,ad73f688ea6f8ec5f10fdbb5e6c284d8167b53401258bbab8a1afa66d753d045,fl12-spr18,278,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+279,DVER,5484591,8210,c5f53f9f57f5ac2551eb53e710fe19d1e271d56ae38350aaee242c810d8d2241,spr18,279,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+280,DVERY,5492801,8210,84c918c228329693be8ad3c0f2fd094a5820f8331cf691f8066ea8d8464657f3,spr18,280,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+281,DVERB,5501011,8210,3a9d3ac1adec3f7cdb60c294ac272109ee892441571e95b90bbfcf2d097dc2b4,spr18,281,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+282,DVERG,5509221,8210,4741a1cc8f7537872b945c8d45dd2f541524adb265c99d3c7627d380f3966630,spr18,282,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+283,DVERS,5517431,8210,c5f53f9f57f5ac2551eb53e710fe19d1e271d56ae38350aaee242c810d8d2241,spr18,283,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+284,DVERT,5525641,8210,c5f53f9f57f5ac2551eb53e710fe19d1e271d56ae38350aaee242c810d8d2241,spr18,284,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+285,EXIT,5533851,4114,1f09d734cdc4e907d27a28e473505219e4ec2ab3db082e399f8251a67ea205e2,spr18,285,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+286,EXIT90,5537965,4114,092313ef9cd258439b2c5aea50dddb47de09aa621969fe2c2fffb57c99428979,spr18,286,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+287,EXIT180,5542079,4114,e8aee7b290aaa317544aeead7c9db9353a1d0e755735b118a512dd7bf7f1d107,spr18,287,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+288,EXIT270,5546193,4114,c3ceda6182b441390b186d44e393c22e652395a7f64a6dd1d088b10a3b97bbbc,spr18,288,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+289,LUK,5550307,4114,db155c54fb3805a18282af20f1e07d12ed2f0cf345a06dc3eba8abcf94cf19e7,spr18,289,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+290,RESOTKA,5554421,4114,570d2af6f6499254cef79623fa5c051a55d0aadf2e57ae41e5a8dc2535459eed,spr18,290,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+291,KEYY,5558535,73930,21a315faf0ffc311d5b73de0c8287b3adceb49f6dbad26602c328d7b2d4cf4b9,fl12-spr18,291,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+292,KEYB,5632465,73930,2dd8c4bffee40653efde293d1a7f550616ff4cf8f0ad907eb845e725f856c4a3,fl12-spr18,292,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+293,KEYG,5706395,73930,ec8b88643ee6de9c336d03c8b040b58fd4f284588a0408b1fc55cf3696554407,fl12-spr18,293,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+294,MUHOM.WAV,5780325,9414,959b70f0494767542ffb226e5a5a27f434b82d59adf40d61b03bacac55ca6439,riff-wave,294,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+295,KEYY.WAV,5789739,14470,b27b4c2e2e53adba5a0407f0ba15dee109d86a482941c205d9ac8e278020417b,riff-wave,295,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+296,KEYB.WAV,5804209,13190,33133262f6428b5ac3c2469437b8eb83e4116620d28cb6d45aa2cb997c16d3c9,riff-wave,296,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+297,KEYG.WAV,5817399,13446,c841f974b767f7982cbe4dd3ae82c609dc0e9c26a7b4aff8466fb1fa96206b14,riff-wave,297,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+298,OGON.WAV,5830845,5398,e445282af72ed6401583f62104c6ff38e0682a02f2b61f9b8e2314c013ad1475,riff-wave,298,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+299,POSOH.WAV,5836243,4686,8a1d497e4ae34b3a2b0fae48bc3b40a0a2b86622bfd72ef49287bff3f696c410,riff-wave,299,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+300,TOPOR.WAV,5840929,6188,8893354c9086e2e2fa512722b7b0d53ef0ebfe98e1549c9c8d569b515fbfdde7,riff-wave,300,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+301,TOPB.WAV,5847117,12814,5248bfa6d7556958e6d9318cb4baf5f9274792c3257128845ec7e896158894a9,riff-wave,301,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+302,AVTOMAT.WAV,5859931,7094,26126a12fe0010adcddc7f5c4e501b409a6537ecd2dd4833dde82549c22bd351,riff-wave,302,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+303,SEKIRA.WAV,5867025,7102,68f1ef1ec9386c53a509486c19329d62d1df7810c146d6e0ba4fb88d510f7f34,riff-wave,303,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+304,RUZE.WAV,5874127,8026,21dfbbb9f6d59644b5e1365ba5bd894e3d854588fbccb295bbcde96ee2fbb450,riff-wave,304,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+305,POROH.WAV,5882153,12620,4ddf81d27cefac146b0da966ac3ffd7828ed8f05fda58bd834b605641aa60dd1,riff-wave,305,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+306,POJLO.WAV,5894773,4308,559bcf2626b31f02cafadaf5c1d1892d744c1348e8666dfa17f76950654ce287,riff-wave,306,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+307,SERDCE.WAV,5899081,7332,6f0329715989314db78337df5475136b3fe76f4cafa6d8016faa0eb99f802c2e,riff-wave,307,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+308,APTEKA.WAV,5906413,8326,77b483e4775e314dbac5ce8444fe841b977133880a5f15327befb06fad89d3fe,riff-wave,308,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+309,MAGAZ.WAV,5914739,8518,30c3ab1ff806e22b195a24c5ffe736ad5fa8ecb9d79fd4602ac45fcf68164502,riff-wave,309,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+310,PREBU.WAV,5923257,15142,41bd0f13d465e109ca7242de89ca0d428580b09bf170406d2d31824c347bd521,riff-wave,310,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+311,UGUGU.WAV,5938399,16486,a1e25e6caa214c9ea6a8eca6847f98f4e149279a3076b9e01b5be7a925264fcf,riff-wave,311,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+312,HRU.WAV,5954885,12102,1c957e608ea8b89fd62ff3b58aa9eaadfa585e99b385146e53c7056a14cf92b4,riff-wave,312,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+313,AAAAA.WAV,5966987,9174,bda6a52732e0d0ef298594f23b772ab2e2076468a2862056fbbe07add1635cfb,riff-wave,313,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+314,AAUU.WAV,5976161,29444,3bb3c03a8d4d6d356c18ac007cb1a333622baae092a3196ca3cbcb69a65db812,riff-wave,314,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+315,UUA.WAV,6005605,10406,daff731111eb0403b939cac4e3e358d690d86c9c73cb6ee8f10e095dcdf07565,riff-wave,315,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+316,OOO.WAV,6016011,11286,49624bb5f44c0863d7a17e8a7aa36328bb4859b5120601680961ec7574c47fcc,riff-wave,316,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+317,SMERT.WAV,6027297,16870,d0c77f6f87b95eada8d0206922d2c0abf550a9a891460a49cac5788a842eda77,riff-wave,317,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+318,SASPOLU.WAV,6044167,16806,aec5c028a91d4cd36684813311c347ef24174cc86e704865bba2de525b646867,riff-wave,318,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+319,ATEBE.WAV,6060973,9846,c3a5f179646060dbb1e8ef24e870c66d9d20dd3b14ab26f18fc4c21b24518ed0,riff-wave,319,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+320,POPALSA.WAV,6070819,17380,61edf68275c3d60ace7c5c6e7e5c52ef561f5efa72791d8d387e633b3614351b,riff-wave,320,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+321,UA.WAV,6088199,10710,ab862b8cc83aa0a87ab249974da39fdddcf7901c55ef048287a28804be36bd4e,riff-wave,321,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+322,UMRI2.WAV,6098909,9590,6f48d6bd5a1e567bc25f37c1f9736e30b50cb9d0395068fb752dbc1ae665deb4,riff-wave,322,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+323,ISPEPELU.WAV,6108499,15172,69960df4082ff7224421be40c97da32a5b63dcf4d8e93a0d80935cb0aa5fca58,riff-wave,323,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+324,WOTTEBE.WAV,6123671,8436,b46ab7a447bac075d582629fcc0b350964bbb544fb88cf6dc97d539c6db164ad,riff-wave,324,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+325,POLUCI.WAV,6132107,8916,10fd8651c7a360d6c47bf6c3d86210565a9edec06f817a684daf253b292e4d14,riff-wave,325,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+326,UMRI.WAV,6141023,9974,0ea661401e31e7a7653a1b74d9d3dd22be061110ee7298d9e3aa968e6d6a5fef,riff-wave,326,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+327,ZAKALD.WAV,6150997,19686,e4e08c51883ae18c1fbb2629ba00e8a4efce527763134c02e0588950fcdfc46b,riff-wave,327,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+328,ZARUBLU.WAV,6170683,15782,3a8f1846fa4dc16184316a780bdd33ef4493577c9c1f395d0df1aeb50c2c1548,riff-wave,328,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+329,KROV.WAV,6186465,10326,d7f9ae48f2d1754a274615f49020c1088420ccdefc298d98a1e6882ca6caec8a,riff-wave,329,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+330,DEMO3.WAV,6196791,69640,afe03195973fdd0133c1ebb78f16117ccbd1cc13e5267a82c1a46298a9c58977,riff-wave,330,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+331,DOOR.WAV,6266431,11996,91f36efc9f631512e7c182d4fc6b8ddce897ab03db39a7a78388f31891e68da0,riff-wave,331,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+332,0.WAV,6278427,132,4a66e1c20100a8acf764f888f484074692fa94e568413dddb8461227d997e5a0,riff-wave,332,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+333,SEKIRA.FL,6278559,45732,c0d3711d1e54d1ddc173d875d7bb9e1b606e08b663e463453dc633f553b15eba,fl12-spr18,333,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+334,SEKIRA.SPR,6324291,6253,b9f5b48c57159906a94e01d03adf9833c9e2897f89dd9e46e7f97c78baa43cf5,spr18,334,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+335,HELP.SPR,6330544,64018,c840716c749d5b11208b37ea69d0493c9712dfb5c01fc10b96cd7d50c9825ce2,spr18,335,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+336,RED.SPR,6394562,4114,79625d1b74576ebcc63a9765e34be0bfe80726ad6e8b18d156bfb7f0ceaf9db9,spr18,336,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+337,TEST.SPR,6398676,1042,5c5b2edaaeceb1dbba29cad526a858f19d81a12838430466a5082ff6f2fffa43,spr18,337,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+338,DESTROY,6399718,5035,ad73f688ea6f8ec5f10fdbb5e6c284d8167b53401258bbab8a1afa66d753d045,fl12-spr18,338,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+339,STRU.FL,6404753,295540,c43954abefd356ee20d1112cf8378e5b9886eab166ddd4441629fa0b149a107f,fl12-spr18,339,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+340,STRUA.FL,6700293,85017,5e2c7ca5f2e384698c34feb07b05c6e7f8e63c904e83a1db58569fdf6e17679b,fl12-spr18,340,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+341,PISALA.FL,6785310,37420,d43619e0f5c14b958857cafa43b5ba2c5bc118532a23b50a5c69a3e4e84b532c,fl12-spr18,341,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+342,PISALL.SPR,6822730,6738,b4987dd1c3d41c1d61f37102a5a7c617a0818fdce17db276cb7d6e696479d790,spr18,342,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+343,CURSOR_SP,6829468,518,f3b56654a7a731a72060e2e6337e114096ac972f6027b44c2a8c2d92be90afb1,spr18,343,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+344,MENU_SP,6829986,20868,0141d4f826d87a872e3e09d569ae104b16c4bbc1c691c083893166aadbaf2623,spr18,344,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+345,PISPUL.SPR,6850854,578,4cf2e30f12deee85cd7ec5f984845c9b17b9bc0483591f97272919282db4d74f,spr18,345,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+346,AKM74N.WAV,6851432,1762,5477bccc3eb1933e2c1126e3f9950161f480a970969cbbb3299d7f33f96db7dc,riff-wave,346,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+347,RICOSH2.WAV,6853194,5868,0736319cf9feed4d1f100165bc01d7fe8ed4ed6cf6fbe432ce7b9ba7383bd509,riff-wave,347,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+348,PISHAL4.WAV,6859062,17222,cc20990cb5b419f3f02b562f92cdc86b49033a109100a1f101ee29193abd317e,riff-wave,348,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+349,PISHAL6.WAV,6876284,22490,0b66ee35200d24fd7ab287c43b105f2a82ac82b661a293be69b4bdd1c3b528ad,riff-wave,349,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+350,POSOH1.WAV,6898774,8966,2cdce607acaed5437b30b6eddee05cbeb2ff5f3c7f5dec0c2e23a3e62041ab00,riff-wave,350,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+351,SEKIR3.WAV,6907740,4724,bcf373337dbffb51b735a8ab0aa8b608bf8874a3a1d7141ce394e6891877d181,riff-wave,351,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+352,SEKIR6.WAV,6912464,3192,bebe99b18067894ef31891920aee9753eec22f250a03d56999592a0507976529,riff-wave,352,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+353,TOPOR1.WAV,6915656,3396,f8e8f7cc460f6f0d6059bfc9c20954be44eb15c2b713e168fbdf3305d9300301,riff-wave,353,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+354,SENSIDE.SPR,6919052,4114,6e3f59226e234076f5ced8916584f45b6bc3a9112d4b51dc9a7a5f8c0e14b598,spr18,354,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+355,SENUP.SPR,6923166,4114,fffed27375666999fbb2150a8704b6417f4184ee2eb131a0b237fc52bbc27ebb,spr18,355,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+356,SENSOR1.WAV,6927280,2422,358d5f3e9b738d51a8da1ff7950723c7c4061a29c7e475bed3e98b63f61121ea,riff-wave,356,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+357,UROVEN_SP,6929702,9888,92f13e1f10dbe17a2b7455325913e2c65a3a8d189da842b70f5009edf514857b,spr18,357,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+358,WAITMSG.SPR,6939590,2698,873677ef13c1fb9af3e01b4072a340362aca4fa30f97f4329f64bf35f5945b68,spr18,358,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+359,SIGHT.SPR,6942288,187,e0f3ead9c495ebb1a86b6a69d272a5a71f9a6a3ac3f297d1014a791d401d5208,spr18,359,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+360,CHA.FL,6942475,112772,d439019fbcc514727bf9dfb93c74c17ddc96ca7c720b875ed6dfcbfb30bb9464,fl12-spr18,360,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+361,CHAA.FL,7055247,4408,cd8d146c808a34b6f3f0d120b6fe860b68f47bb6b86c983a4407d4b9970e54b6,fl12-spr18,361,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+362,KOL.FL,7059655,35012,5b1d0109a4c381dcb4cf3e1419521ceac87389feb747cea0deb4641e7d1c080b,fl12-spr18,362,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+363,EXPLOS.WAV,7094667,18340,703abe2dfd0112f06b1d7ed7c0ce04299f0757d24273c063149dc0c45d553528,riff-wave,363,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+364,KOL.WAV,7113007,10820,8f4f5512e552f2f6712e6812977d6f9785141deb4becc047b1911e55364057ae,riff-wave,364,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+365,KOL2.WAV,7123827,15138,b84b2b97d94ed14841a3e29c5fd35dd568e47ae19ac065b1c56133a61f55455e,riff-wave,365,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+366,AFIRE.WAV,7138965,22442,4baa0f3a33ea41c92ab448fcbe8965657e5428ff9942a4aeb2a82ab3236b7426,riff-wave,366,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+367,AFIRE.FL,7161407,53717,ecd40703796a5034440de0f1d6c708c54bf9383a0241e60af41293db80a67185,fl12-spr18,367,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+368,DFIRE.FL,7215124,6502,06d64fe1f338d17f61cf8e76a8d91edc3818e4c5600d4852163b69a7baffa8f4,fl12-spr18,368,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+369,RFIRE.FL,7221626,15568,d7fc0f38aac007e9ec86b8f1f9f007e2fbfb18018225fb3054e056fc5fffe62f,fl12-spr18,369,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+370,PUSTO.FL,7237194,49,769c600479ecd315fe8831a76054b3b48f46285f41db97ab886150800d223fd7,fl12-spr18,370,consumer-context-required,GFX-02: таблица FL и все вложенные SPR
+371,PUSTO.SPR,7237243,27,0c98c1f6644ee3147f35e423373fb3bdd6184bac6b223bd47d09620589121fb7,spr18,371,consumer-context-required,GFX-01: SPR18 и точный диапазон width×height
+372,dcherp.wav,7237270,2806,b05f78b8995b1820da7df1d35330216573e66657957085eaf7fe2d7dc9159ce0,riff-wave,372,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+373,amam.wav,7240076,22374,76fc516b8755beeb3fb960531918b7b2f646775e109f5594ae34f013d8191b39,riff-wave,373,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+374,zagrizu.wav,7262450,15332,09003393024cd782e77d7ef880648e04cb442b92d2237c47a83470ea8f9e96cf,riff-wave,374,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+375,ukushu.wav,7277782,16518,2387e991269aa2fadfec7afb60f074253ea2e0d9aa5694668cbfd9eb7b80bb6e,riff-wave,375,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+376,maso2.wav,7294300,26628,d50df28b4a909dd93273defc93c6a5c43dcfa2b2a69a0c0e8546e11524143692,riff-wave,376,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+377,b3_006.wav,7320928,21614,0a7d85ff188c8f68a1c00ff9cfa0d2b4ea60337f38846be984fe29f586f8e93f,riff-wave,377,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+378,b3_005.wav,7342542,20302,9113d6d15161b6c89625f4edfa30993e48fbe4e17756ba373a8e3bd293f2fae0,riff-wave,378,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+379,s3_005.wav,7362844,10222,828f9c6fca04102b31dae9278b6a9ce5c37e415e7312874c33815dfed61b736c,riff-wave,379,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+380,s3_004.wav,7373066,15790,2f20d355f11c6122db368866977bb46fcff362650ae2183a9b60cda32901a3ca,riff-wave,380,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+381,s3_002.wav,7388856,26350,488e0775651ccd8c537a5fc762bdf171ea5747b3db67fa7a82b838c747f26238,riff-wave,381,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+382,s2_003.wav,7415206,13614,4b707398720d2cfb3ed94e73e497bedc117312bce6872ef96219fb7b75392421,riff-wave,382,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+383,s1_010.wav,7428820,15918,551d4dacfacc495cb97f269d2d3c710b72399f4c27629bac4baa1c0e92219cd1,riff-wave,383,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+384,s1_007.wav,7444738,22414,5c7ea8f652da00db30abdcce070144b8699f1320c2e6c31faa1a605067566f9c,riff-wave,384,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+385,r3_008.wav,7467152,16334,e7c437a6738b897e5da71d8a08522cbc531cf845b4cffab746029bb1971b4d31,riff-wave,385,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+386,r3_007.wav,7483486,35118,c29509bce67f563c1404c3c551c0ba8e185cac7d3066bf4062a501d46ff6fbc8,riff-wave,386,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+387,r3_006.wav,7518604,26926,586eb33d16070dde81108fea76067741ea07ab3eeeb65dcc6cfad098c857b0f8,riff-wave,387,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+388,r3_004.wav,7545530,18574,ba46bf6c62d58a8a7ac8466e1d9ba57f030be415791576385d0f95e698240998,riff-wave,388,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+389,r2_006.wav,7564104,14446,930a3aadb1867aaf39b457986b0acb64e3fb047221c18fe75663ff2ae72dec65,riff-wave,389,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+390,r2_002.wav,7578550,6250,f8943dd7741b5ae197953630aebcbf759bb93cecc02652e8927e1b88e531b46d,riff-wave,390,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+391,b3_003.wav,7584800,23030,93f95148143ecc9a85dda332139829400b1b8a52ed3b9b3d5f66e760019e8fa2,riff-wave,391,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+392,s2_004.wav,7607830,17230,eaced56dc6a0021096998201894253f556b7a207a4237ac298e83acc8b126020,riff-wave,392,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+393,s3_003.wav,7625060,15886,490c3cc1bc09f001ebc5f1859775a52cbc0c26f287830fc2fe071f529dc124d1,riff-wave,393,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+394,s3_001.wav,7640946,10686,b1ea5938200a74400593fdc8affafb7218cae19a34c3d2769d897d9741e42b25,riff-wave,394,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+395,s2_005.wav,7651632,24494,d21c3a3d8b9ffacdb3ef12f16d511bdb2b3d0d0eb4fb65d984d99aaff26af580,riff-wave,395,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+396,s2_002.wav,7676126,12142,bc794372cf88f7bc5ec5c9878ab173d26c47aa96d68c9a72eb682a0e9e7a5c68,riff-wave,396,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+397,s2_001.wav,7688268,4734,d75e7fe6691c3b712ab0438eccafe0133d4a97c6693f2e612df501d81950b70b,riff-wave,397,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+398,s1_009.wav,7693002,19246,d94a0324aa44780422b852acb652f21fb1083c7a64fe07d3d727c165276c08ee,riff-wave,398,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+399,s1_008.wav,7712248,17678,f33dcfefe9a82a96620b8845de88257c9b2e291a57d3c60fc6aa4f9b41316760,riff-wave,399,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+400,s1_006.wav,7729926,9854,ac014b256cf605100deab47b920779a0a2f0ac947d07242ce5abd71dd668bb7b,riff-wave,400,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+401,s1_005.wav,7739780,14030,81c19ae2089025c4c13a7c0bbcfa3e51d470637b3dc60100a7f3acf746150f66,riff-wave,401,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+402,s1_004.wav,7753810,9742,1b4c6517ed00d2850eeaa58b09617307d3e786ae91166e55bda2877efbbbc435,riff-wave,402,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+403,s1_003.wav,7763552,17774,adc86dae2c419cbdff8b0bd26ee0450358ac5618c2d4ad9b4f3b2da30bdfd36d,riff-wave,403,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+404,s1_002.wav,7781326,9006,04d55dbfeb4b4d5452bdcd54c06f738a5bed0b99a690b31c4b683affa1fb74f3,riff-wave,404,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+405,s1_001.wav,7790332,21134,ca5fd0a9b9894dbc138e21de7e47fbc3d4142c869dbbee8b244bb9b210d8e8ff,riff-wave,405,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+406,r3_005.wav,7811466,25134,ed9997e8240d3ffd7d85aefc8ee5791239af2f9f2cde5d5906669e4e207120e4,riff-wave,406,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+407,r3_003.wav,7836600,16142,0a683b9783e9de9cd0b4aaead77d257b6d9660f5d61315c3416ef362e62542e8,riff-wave,407,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+408,r3_002.wav,7852742,16430,5a8d77dd50ac195baa5b565f7332cce249673b6c239c14794b7b63ba00d84d4a,riff-wave,408,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+409,r3_001.wav,7869172,11790,fc23fba58e32c588b9ab9ffa16729896e07a54a36eea3b8ee5f2bf26577e36ac,riff-wave,409,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+410,r2_005.wav,7880962,9454,04a9e1c8e219dd47c1de1a291b461997f75939f7fbf614d1e4122fb1586c4ef2,riff-wave,410,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+411,r2_004.wav,7890416,13446,4227dd4c57b09069911df68bbcb9a2ce01e7266c6a7f87fb7d7edbbe41675601,riff-wave,411,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+412,r2_003.wav,7903862,10494,d5955b69e90bf375969f745c975a59d9f1192ad59d2eea1417ccb540cb25d384,riff-wave,412,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+413,r2_001.wav,7914356,5598,be9d07a18b1fdf40ada552fad192b93cd05d17aaa3d9a9274232766068f79c0b,riff-wave,413,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+414,r1_006.wav,7919954,17198,21dde1719193b20982102f1cebc58d81529ad2d7dd75871b453a26c6b1199b24,riff-wave,414,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+415,r1_005.wav,7937152,9470,48959c084cb86bf4ee02e4dc8066c6c4773d97141d85df519d942420a9624ea9,riff-wave,415,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+416,r1_004.wav,7946622,10398,67b475922e167e53b44c98dae459af243014778b5fd8c9e7d2fc06cf9af16117,riff-wave,416,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+417,r1_003.wav,7957020,14766,c63b63d77411a48426248a3bf2529ac89badcc199e1f9c1b175a7e7d976861c0,riff-wave,417,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+418,r1_002.wav,7971786,9614,8db2020908a9683a54134e6b1a82baccc4d9ad3a5eafe6d1a9e98117460b0c50,riff-wave,418,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+419,r1_001.wav,7981400,14798,4d8e38bc7b6fa14f39dcdf9224887d01fee83b17717e18f5d0cec1154ef0860e,riff-wave,419,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+420,hasta.wav,7996198,26668,d555740d06196d081849e476dcea3102e6511ad57b5f6835c0e4c889c27a9777,riff-wave,420,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+421,b3_004.wav,8022866,10446,f7154f33701d07c6ca05b79772da7e04fdc5303070f263af647b07e02cedd864,riff-wave,421,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+422,b3_002.wav,8033312,32366,4fb41469dda71978589bb156fba79c61c16a0e40eda80b0ef034c2be2267e560,riff-wave,422,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+423,b3_001.wav,8065678,24110,0eae9276eabffec2799abc3ccf33201c8366de8380f15c00d902c847004df605,riff-wave,423,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+424,b2_006.wav,8089788,26990,67bf7a088679a25a328729530c90415ea77d2fd40c4dd1acb1b69d573214e402,riff-wave,424,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+425,b2_005.wav,8116778,27886,96ea45e8614b60df628e775a547a51450c6feeb1384286f65afb39bbf12feb5e,riff-wave,425,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+426,b2_004.wav,8144664,12542,95a72ac5a5c42755704cdda082df0c97e14503ffa1435aade60bf1c29f898eb6,riff-wave,426,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+427,b2_003.wav,8157206,12542,7b0b50f186de30f7d040086747de5fabf54031677d73520afa11eb380edc6520,riff-wave,427,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+428,b2_002.wav,8169748,12542,4c93b015db1aa23d1631801372f43aa2f48c4b370fd08655a382bb434e921b59,riff-wave,428,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+429,b2_001.wav,8182290,12542,e7526906d09a73f808e1f6e7747a4c630557ae8d91285dec8c9ea5e098aeb2d7,riff-wave,429,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+430,b1_009.wav,8194832,28910,b95d913fd066399b430984ff76204e602d8f96249589e273e73c1f959806ebf7,riff-wave,430,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+431,b1_008.wav,8223742,17966,8c3850f26ab597f820d67301305a6005e6c7011b16c6c1dd2dd9eaa884320685,riff-wave,431,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+432,b1_007.wav,8241708,24430,d7043e9ed0312a136b1777fc93c2b09f272df98942f67bd68dd1cb8f06539b46,riff-wave,432,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+433,b1_006.wav,8266138,16110,31549eabaa709a91c23e7ff0b9ffadc89180db48b2e6279b1aa1a100a7e71a21,riff-wave,433,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+434,b1_005.wav,8282248,16238,64feb59839fbf3ff321be6bc9fbb25c7759dd669c6c8b50b2d4885c7f8e9c71d,riff-wave,434,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+435,b1_004.wav,8298486,23070,28b6cc34b9b5a20576d81cbae7acd417f7cd1b1d924107d3c233b4ef4df148d6,riff-wave,435,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+436,b1_003.wav,8321556,16174,c6ef91572d51ec57f4e5e8a7a66b3dc222dfc9c308ac19d75b7cf467fd01bcb8,riff-wave,436,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+437,b1_002.wav,8337730,18430,8a3dd3e11f6b974ae3db6992a383d7337c03868084f3ff9818d15f3432f2386f,riff-wave,437,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+438,b1_001.wav,8356160,20194,968994c9129ee2844e4b406ff6c953f541560d46bc2d40d4a1d707c240dea80b,riff-wave,438,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+439,ks2_004.wav,8376354,10956,338a9419070898038754fcdc03881ae443db158f0ba42f3226ea0201b1e47828,riff-wave,439,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+440,ks3_003.wav,8387310,10102,7eb15d071fb1c05341dd9780e806329a44df3db5fc5b01b4dc8d2c6ea9b78345,riff-wave,440,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+441,ks3_001.wav,8397412,6802,ad83c108cc2b25e12661d7bcebd05c67992ccaa0ca94758e2b08022e7f90a1bd,riff-wave,441,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+442,ks2_005.wav,8404214,15568,689e9a92008ac25913fb7a3e59072cd1e8d75a4c8bf70e07d0ffadab7f449b95,riff-wave,442,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+443,ks2_002.wav,8419782,7726,bd81958f215b1cd12ce8c5240d662ef2b170093ca2e073feb0480e26dc52bf72,riff-wave,443,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+444,ks2_001.wav,8427508,3022,6f66269af402fe7f28218f11e8cdc25d681c78782df89e2f47ec695bba6e7f0b,riff-wave,444,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+445,ks1_009.wav,8430530,12236,3344ae9580b2fa1c1ea414af9e90c40d257625c4ba7a59ae5659696d21b533a7,riff-wave,445,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+446,ks1_008.wav,8442766,11240,9a42520c050d1778d70733e8096bbc660cef776837773fb47ea3c071e99b5bd2,riff-wave,446,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+447,ks1_006.wav,8454006,6272,7ea5c3708f3d223b5943c535cde4ab078690d7d6640649e8343995380de4cce0,riff-wave,447,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+448,ks1_005.wav,8460278,8924,c705ac4faa9e5c5f36f1e46f0604974bf90a84e45ff11f8ae887d3cb5abb208b,riff-wave,448,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+449,ks1_004.wav,8469202,6202,4bed6bdda5c27a22d4b4dfa43dcc04722b63bb52b3cdb3768f07277e992c8340,riff-wave,449,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+450,ks1_003.wav,8475404,11302,eb5c7775ee5fedbdf63f700efcea0ecde1e803fdd6a34e5960cff664e7437503,riff-wave,450,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+451,ks1_002.wav,8486706,5734,432e6b0dc87c2af3f6fc2c2c8953ffc6bb7405c2d954eb088d45e9287043cbc2,riff-wave,451,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+452,ks1_001.wav,8492440,13434,5d5e275960a88a4e9295746ab742e9896745377212b168fed61daf06ef7231fd,riff-wave,452,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+453,ks3_005.wav,8505874,6506,d2c41b7d93b5d4a1967b8cfb4b951572fe3e9ee6ca1b847c00e57909ab3df7dd,riff-wave,453,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+454,ks3_004.wav,8512380,10042,4d6745a78942906f8ff5840defc09bc7decfa6d247cd44cf80ba3984996d5d80,riff-wave,454,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+455,ks3_002.wav,8522422,16746,d518344dc44a9359c55128a257aa7dc7497367e7247f8ba7c987f7271b65538b,riff-wave,455,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+456,ks2_003.wav,8539168,8660,8c8d210a2d2cb7147fb93df20eb56973bf8f633fd9e889d6da598473b4c09ef8,riff-wave,456,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+457,ks1_010.wav,8547828,10124,cd29c4de077549a2156580fd42f89ac5d658dbe64a8e610459dc803040d1868a,riff-wave,457,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+458,ks1_007.wav,8557952,14248,2b181438a7c86852c93d892682a5eb0b6a2e9165f61eba399316f97464a51ad0,riff-wave,458,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01
+459,endtxt.wav,8572200,144502,8a7d11537a565ed75db0b141c5743eabe478f435b73fd54692c6ad33eca21ae6,riff-wave,459,consumer-context-required,RIFF/WAVE и длина; чанки/семантика остаются SND-01

@@ -52,6 +52,7 @@ CD-треки «Смуты» поставляются отдельным **оп�
 - [Сравнение вариантов, сложность и маршрут LVL-01](docs/SMUTA_LEVELS.md).
 - [Промежуточная модель IR-01 и проверка допуска IR-02](docs/SMUTA_IR.md).
 - [Декодеры графики/FL и правила отображения GFX-01/GFX-02](docs/SMUTA_GRAPHICS.md).
+- [Шрифты, экраны, LIGHT1 и полная классификация GFX-03](docs/SMUTA_AUX_GRAPHICS.md).
 - [Реестр неизвестных и отклонений ENV-03](docs/RESEARCH_REGISTRY.md),
   [сценарии сравнения](docs/COMPARISON_SCENARIOS.md) и
   [шаблон протокола замера](docs/templates/MEASUREMENT_PROTOCOL.md).

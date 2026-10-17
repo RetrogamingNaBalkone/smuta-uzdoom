@@ -1,0 +1,285 @@
+{
+  "format": "smuta-auxgraphics-rules",
+  "version": 1,
+  "exe_sha256": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+  "container_sha256": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8",
+  "evidence": [
+    {
+      "id": "font-load",
+      "va": "004264C0",
+      "end_va_exclusive": "0042650B",
+      "file_offset": 154304,
+      "length": 75,
+      "sha256": "3208b729df04af5815b24d8397bb29fc5e912a185ea8c3d710f8849251f67e0d"
+    },
+    {
+      "id": "font-map-and-draw",
+      "va": "00426592",
+      "end_va_exclusive": "0042664B",
+      "file_offset": 154514,
+      "length": 185,
+      "sha256": "44175ecf0598479b77310f005d5a88b3fd57ce93ce5d906898d6c55b3a0f1708"
+    },
+    {
+      "id": "font-string-controls",
+      "va": "0042664B",
+      "end_va_exclusive": "004266A3",
+      "file_offset": 154699,
+      "length": 88,
+      "sha256": "b92e0cba8c8258844838b9604f302a0ce5aea9d686202107c78f679aa5519b80"
+    },
+    {
+      "id": "font-bit-masks",
+      "va": "0043732C",
+      "end_va_exclusive": "0043733C",
+      "file_offset": 219948,
+      "length": 16,
+      "sha256": "d4d9cad9105ba7a8eabb479652c4aff8a761969e96760cbb2bbd6371de66adb0"
+    },
+    {
+      "id": "font8-selection",
+      "va": "00424F1B",
+      "end_va_exclusive": "00424F26",
+      "file_offset": 148763,
+      "length": 11,
+      "sha256": "d3fe775e778f9cc8d6df689e1ba3cb46757b3b0a6707798cf5b4d1ec998422b2"
+    },
+    {
+      "id": "light-load",
+      "va": "00410EA8",
+      "end_va_exclusive": "00410F04",
+      "file_offset": 66728,
+      "length": 92,
+      "sha256": "80ad9d0a55692abc1ad43f0e6d395a345bafe9a93342bac1771c7ff19cd04d03"
+    },
+    {
+      "id": "light-palette-regeneration",
+      "va": "00410B64",
+      "end_va_exclusive": "00410CA9",
+      "file_offset": 65892,
+      "length": 325,
+      "sha256": "ff70741130190d2c9f78d55fec9202f32d520efaa659446f398a140e235f45b3"
+    },
+    {
+      "id": "light-blend-consumer",
+      "va": "00407082",
+      "end_va_exclusive": "004070A4",
+      "file_offset": 26242,
+      "length": 34,
+      "sha256": "95181631e4f8df65e6e8fb2f7c7f404515be213be9d0696127644a33a8bc6c77"
+    },
+    {
+      "id": "light-level-selection",
+      "va": "00402B93",
+      "end_va_exclusive": "00402C13",
+      "file_offset": 8595,
+      "length": 128,
+      "sha256": "c6716edc6cff00d34e28768c33e5ef418990b241cbf707100b7e1c25e3e0a13f"
+    },
+    {
+      "id": "light-text-directive",
+      "va": "00427533",
+      "end_va_exclusive": "004275C6",
+      "file_offset": 158515,
+      "length": 147,
+      "sha256": "a069d5d68a80f17212fb1b2b02b09bb0a8ecc200204c831646212db32cb784d8"
+    },
+    {
+      "id": "loading-screen",
+      "va": "00424BC8",
+      "end_va_exclusive": "00424C69",
+      "file_offset": 147912,
+      "length": 161,
+      "sha256": "eb1dcf2c7357fcfa00373700fe029a6add7c76b0874d435f70f9901f2a58124d"
+    },
+    {
+      "id": "loading-before-level",
+      "va": "00424FC0",
+      "end_va_exclusive": "00424FD8",
+      "file_offset": 148928,
+      "length": 24,
+      "sha256": "196596bf09a6a54c7df27df1f5e3dd7eed82f8e8179f88ba92d6edc02dae00b2"
+    },
+    {
+      "id": "menu-splash",
+      "va": "00424B24",
+      "end_va_exclusive": "00424B8E",
+      "file_offset": 147748,
+      "length": 106,
+      "sha256": "e290e006fa26fd42d3f7f54f64214c5b3cf958d79df406080f5c7f54482782a5"
+    },
+    {
+      "id": "menu-definition",
+      "va": "00405570",
+      "end_va_exclusive": "004055C5",
+      "file_offset": 19312,
+      "length": 85,
+      "sha256": "12fa8a39263fa2ea87e815137fe78ce42ca289e6f485261ec111f4ecee8797d2"
+    },
+    {
+      "id": "difficulty-menu",
+      "va": "004057CA",
+      "end_va_exclusive": "004057E5",
+      "file_offset": 19914,
+      "length": 27,
+      "sha256": "4e8d002eddf616f2a6ce4ff2b036d84b0fccf933b8e2a22714d1dcb06f7a2a00"
+    },
+    {
+      "id": "hud-resources",
+      "va": "004080F8",
+      "end_va_exclusive": "004081FF",
+      "file_offset": 30456,
+      "length": 263,
+      "sha256": "78892479906d8b4711f1636b478944b04ba007812a05ca10c727fb72eba5d621"
+    },
+    {
+      "id": "help-screen",
+      "va": "00424C6C",
+      "end_va_exclusive": "00424C97",
+      "file_offset": 148076,
+      "length": 43,
+      "sha256": "86019c1409e8b231309e0b23922773c6a97a290375046f84d9aff08bc6389d0a"
+    },
+    {
+      "id": "menu-cursor",
+      "va": "0040FF18",
+      "end_va_exclusive": "0040FF55",
+      "file_offset": 62744,
+      "length": 61,
+      "sha256": "d27a9c6e8b516cff845823c4104d1a5300c8e9e2da63ac1e213d8068cee6b643"
+    },
+    {
+      "id": "palette-mode2",
+      "va": "00424E00",
+      "end_va_exclusive": "00424E1E",
+      "file_offset": 148480,
+      "length": 30,
+      "sha256": "2dc987351009dfcd746b3b784a00c6eb326135757c5bdb5a3bd3807c753fa17d"
+    },
+    {
+      "id": "light-alternate-selection",
+      "va": "00402573",
+      "end_va_exclusive": "004025B0",
+      "file_offset": 7027,
+      "length": 61,
+      "sha256": "366c1697af128236fffc06a68e3a3558b623c1bc880953e286ca0ddd60dc140a"
+    }
+  ],
+  "screens": [
+    {
+      "index": 182,
+      "role": "menu-background",
+      "evidence": [
+        "menu-splash",
+        "menu-definition"
+      ]
+    },
+    {
+      "index": 183,
+      "role": "shadowed-bmp",
+      "evidence": [
+        "DAT-02-first-match"
+      ]
+    },
+    {
+      "index": 186,
+      "role": "hud-background-loaded",
+      "evidence": [
+        "hud-resources"
+      ]
+    },
+    {
+      "index": 191,
+      "role": "hud-panel",
+      "evidence": [
+        "hud-resources"
+      ]
+    },
+    {
+      "index": 192,
+      "role": "hud-health",
+      "evidence": [
+        "hud-resources"
+      ]
+    },
+    {
+      "index": 193,
+      "role": "hud-weapon",
+      "evidence": [
+        "hud-resources"
+      ]
+    },
+    {
+      "index": 195,
+      "role": "hud-key-candidate",
+      "evidence": [
+        "consumer-not-traced"
+      ]
+    },
+    {
+      "index": 196,
+      "role": "hud-key-candidate",
+      "evidence": [
+        "consumer-not-traced"
+      ]
+    },
+    {
+      "index": 343,
+      "role": "menu-cursor",
+      "evidence": [
+        "menu-cursor"
+      ]
+    },
+    {
+      "index": 344,
+      "role": "main-menu-sheet",
+      "evidence": [
+        "menu-definition"
+      ]
+    },
+    {
+      "index": 357,
+      "role": "difficulty-menu-sheet",
+      "evidence": [
+        "difficulty-menu"
+      ]
+    },
+    {
+      "index": 335,
+      "role": "help-screen",
+      "evidence": [
+        "help-screen"
+      ]
+    }
+  ],
+  "external_screens": {
+    "relative_paths": [
+      "Z0.SPR",
+      "Z1.SPR",
+      "Z2.SPR",
+      "Z3.SPR",
+      "Z4.SPR",
+      "Z5.SPR",
+      "Z6.SPR",
+      "Z7.SPR",
+      "Z8.SPR",
+      "Z9.SPR",
+      "Z10.SPR"
+    ],
+    "role": "loading-screen-by-level-number",
+    "evidence": [
+      "loading-screen",
+      "loading-before-level"
+    ]
+  },
+  "font16_usage": "unknown-no-direct-literal-found",
+  "help_screen": {
+    "index": 335,
+    "name": "HELP.SPR",
+    "status": "resolved-DAT-SPR18",
+    "evidence": [
+      "help-screen"
+    ]
+  },
+  "release_ready": false
+}
