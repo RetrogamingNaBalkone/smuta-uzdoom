@@ -1,0 +1,39 @@
+version "4.14"
+
+// Технический игрок; параметры не являются механикой Смуты.
+class SMProbePlayer : PlayerPawn
+{
+    Default
+    {
+        Player.DisplayName "UZD-01 probe";
+        Player.SoundClass "smprobe";
+    }
+    States
+    {
+    Spawn:
+        SMPB A -1;
+        Loop;
+    See:
+        SMPB A -1;
+        Loop;
+    Death:
+        SMPB A -1;
+        Stop;
+    }
+}
+
+class SMProbeStatusBar : BaseStatusBar
+{
+    HUDFont probeFont;
+    override void Init()
+    {
+        Super.Init();
+        probeFont = HUDFont.Create(SmallFont);
+    }
+    override void Draw(int state, double TicFrac)
+    {
+        Super.Draw(state, TicFrac);
+        BeginHUD();
+        DrawString(probeFont, "UZD-01 / TECHNICAL ROOM", (12, 12));
+    }
+}

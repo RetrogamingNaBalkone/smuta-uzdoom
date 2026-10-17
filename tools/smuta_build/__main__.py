@@ -15,11 +15,14 @@ from .graphics import decode_graphics
 from .animations import decode_animations
 from .auxgraphics import decode_auxgraphics
 from .sounds import decode_sounds
+from .standalone import build_standalone
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Структурные инструменты Смуты")
     commands = parser.add_subparsers(dest="command", required=True)
+    standalone = commands.add_parser("standalone")
+    standalone.add_argument("--output", type=Path, required=True)
     for name in ("extract", "check", "pack", "text", "ir", "validate", "levels", "graphics", "animations", "auxgraphics", "sounds"):
         command = commands.add_parser(name)
         command.add_argument("--source", type=Path, required=True)
@@ -32,7 +35,9 @@ def main() -> int:
             command.add_argument("--dat-source", type=Path)
     args = parser.parse_args()
     try:
-        if args.command == "validate":
+        if args.command == "standalone":
+            result = build_standalone(args.output)
+        elif args.command == "validate":
             report = write_report(args.source, args.ir, args.output, args.mode)
             result = {k: v for k, v in report.items() if k not in ("issues", "research_placeholders")}
         elif args.command == "pack":

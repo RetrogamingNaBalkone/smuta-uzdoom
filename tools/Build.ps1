@@ -1,7 +1,7 @@
 ﻿# Единый вход ENV-02. Все результаты остаются в build/ или dist/.
 [CmdletBinding()]
 param(
-    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations', 'AuxGraphics', 'Sounds')]
+    [ValidateSet('Setup', 'Test', 'Extract', 'Check', 'Pack', 'Build', 'Text', 'IR', 'Validate', 'Levels', 'Graphics', 'Animations', 'AuxGraphics', 'Sounds', 'Standalone')]
     [string]$Task = 'Test',
     [string]$Source,
     [string]$Output,
@@ -16,7 +16,8 @@ $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 if (-not $Source) { $Source = Join-Path $repo 'originals/smuta_modern_20261013/smuta_modern/SMUTA.DAT' }
 if (-not $Output) {
-    if ($Task -eq 'Text') { $Output = Join-Path $repo 'build/decoded/smuta-text' }
+    if ($Task -eq 'Standalone') { $Output = Join-Path $repo 'build/uzd-01/smuta-uzd01.ipk3' }
+    elseif ($Task -eq 'Text') { $Output = Join-Path $repo 'build/decoded/smuta-text' }
     elseif ($Task -eq 'IR') { $Output = Join-Path $repo 'build/ir/smuta' }
     elseif ($Task -eq 'Validate') { $Output = Join-Path $repo 'build/ir/smuta-validation.json' }
     elseif ($Task -eq 'Levels') { $Output = Join-Path $repo 'build/research/smuta-levels' }
@@ -59,6 +60,9 @@ if ($Task -eq 'Pack' -or ($Task -eq 'Build' -and ($Stage -or $Archive))) {
 $oldPythonPath = $env:PYTHONPATH
 try {
     $env:PYTHONPATH = Join-Path $repo 'tools'
+    if ($Task -eq 'Standalone') {
+        Invoke-Python -PythonArguments @('-m', 'smuta_build', 'standalone', '--output', $Output)
+    }
     if ($Task -in @('Test', 'Build')) {
         Invoke-Python -PythonArguments @('-m', 'unittest', 'discover', '-s', (Join-Path $repo 'tests'), '-v')
     }

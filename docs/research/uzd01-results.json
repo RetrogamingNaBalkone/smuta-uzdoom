@@ -1,0 +1,59 @@
+{
+  "sources_before": {
+    "uzdoom\\uzdoom.exe": "e6df57d1027cee089d33388ab743817a236148992ac3881d9141ea2b547677d9",
+    "uzdoom\\uzdoom.pk3": "b8f1993f71c7d027e66ebbdfe06ff41d59c65fe09a5d6e87e7163c3a385f1a16",
+    "uzdoom\\game_support.pk3": "2bac103c8d67bb1341c88c31bf3512b879d2cf0233372583081375b72240ccb3",
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.EXE": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.DAT": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8"
+  },
+  "passed": true,
+  "package": {
+    "path": "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009\\smuta-uzd01.ipk3",
+    "sha256": "51ba9a3662fe44a780d5d61fd16936eac08a76c813710fc7ba5b846536b81185",
+    "files": 35,
+    "mode": "synthetic-research"
+  },
+  "reproducible": true,
+  "arguments": [
+    "C:\\Source\\smuta-uzdoom\\build\\run\\uzdoom\\uzdoom.exe",
+    "-iwad",
+    "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009\\smuta-uzd01.ipk3",
+    "-file",
+    "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009\\observer.pk3",
+    "-config",
+    "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009\\uzdoom.ini",
+    "-savedir",
+    "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009",
+    "-shotdir",
+    "C:\\Source\\smuta-uzdoom\\build\\uzd01 verification 331bee92a56f4e64a92cf3fa78e43009",
+    "-noautoload",
+    "-noautoexec",
+    "-nolights",
+    "-nobrightmaps",
+    "-nowidescreen",
+    "-window",
+    "+vid_activeinbackground",
+    "true",
+    "+i_pauseinbackground",
+    "false",
+    "+map",
+    "SMTEST"
+  ],
+  "cwd": "C:\\Source\\smuta-uzdoom\\build\\run\\uzdoom",
+  "controlled_stop": true,
+  "exit_code": 1,
+  "loaded_archives": [
+    "adding C:/Source/smuta-uzdoom/build/run/uzdoom/uzdoom.pk3, 734 lumps",
+    "adding C:/Source/smuta-uzdoom/build/run/uzdoom/game_support.pk3, 3310 lumps",
+    "adding C:/Source/smuta-uzdoom/build/uzd01 verification 331bee92a56f4e64a92cf3fa78e43009/smuta-uzd01.ipk3, 35 lumps",
+    "adding C:/Source/smuta-uzdoom/build/uzd01 verification 331bee92a56f4e64a92cf3fa78e43009/observer.pk3, 2 lumps"
+  ],
+  "sources_after": {
+    "uzdoom\\uzdoom.exe": "e6df57d1027cee089d33388ab743817a236148992ac3881d9141ea2b547677d9",
+    "uzdoom\\uzdoom.pk3": "b8f1993f71c7d027e66ebbdfe06ff41d59c65fe09a5d6e87e7163c3a385f1a16",
+    "uzdoom\\game_support.pk3": "2bac103c8d67bb1341c88c31bf3512b879d2cf0233372583081375b72240ccb3",
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.EXE": "1b7f8e5d010e225139f3a03f3721aff39d5e0b8c1c4ef42106c14002ea6405bb",
+    "originals\\smuta_modern_20261013\\smuta_modern\\SMUTA.DAT": "6e13c4b65e4530291b11e3d4cd6280d874c489837e7e74c5f53b686ca69a74e8"
+  },
+  "sources_unchanged": true
+}

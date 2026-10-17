@@ -1,0 +1,37 @@
+DefaultListMenu
+{
+    Font "SmallFont", "Untranslated"
+    Selector "SMCURSOR", -12, 0
+    LineSpacing 16
+}
+ListMenu "MainMenu"
+{
+    StaticTextCentered 160, 35, "UZD-01"
+    StaticTextCentered 160, 50, "Техническая комната"
+    Position 70, 80
+    TextItem "Начать проверку", "n", "PlayerclassMenu"
+    TextItem "Настройки", "o", "OptionsMenu"
+    TextItem "Загрузить", "l", "LoadGameMenu"
+    TextItem "Сохранить", "s", "SaveGameMenu"
+    TextItem "Выход", "q", "QuitMenu"
+}
+ListMenu "MainMenuTextOnly"
+{
+    StaticTextCentered 160, 35, "UZD-01"
+    Position 70, 80
+    TextItem "Начать проверку", "n", "PlayerclassMenu"
+    TextItem "Настройки", "o", "OptionsMenu"
+    TextItem "Загрузить", "l", "LoadGameMenu"
+    TextItem "Сохранить", "s", "SaveGameMenu"
+    TextItem "Выход", "q", "QuitMenu"
+}
+ListMenu "EpisodeMenu"
+{
+    Position 48, 70
+    StaticText 48, 38, "Технический эпизод"
+}
+ListMenu "SkillMenu"
+{
+    Position 48, 70
+    StaticText 48, 38, "Проверка запуска"
+}

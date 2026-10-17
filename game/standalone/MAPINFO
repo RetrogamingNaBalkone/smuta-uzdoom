@@ -1,0 +1,33 @@
+GameInfo
+{
+    PlayerClasses = "SMProbePlayer"
+    StatusBarClass = "SMProbeStatusBar"
+    TitlePage = "SMTITLE"
+    CreditPage = "SMTITLE"
+    TitleMusic = ""
+    FinaleMusic = ""
+    BorderFlat = "SMFLOOR"
+}
+ClearEpisodes
+Episode SMTEST
+{
+    Name = "UZD-01: test room"
+    Key = "t"
+}
+ClearSkills
+Skill SMProbe
+{
+    Name = "Technical test"
+    Key = "t"
+    DefaultSkill
+}
+Map SMTEST "UZD-01: standalone test room"
+{
+    LevelNum = 1
+    NoJump
+    NoCrouch
+    NoIntermission
+    Next = "SMTEST"
+    Sky1 = "SMWALL"
+    Music = ""
+}

@@ -1,0 +1,8 @@
+IWad
+{
+    Name = "Smuta UZD-01 technical room"
+    Autoname = "smuta.uzd01"
+    Game = "Doom"
+    Config = "SmutaUZD01"
+    MustContain = "SMUZD01"
+}
